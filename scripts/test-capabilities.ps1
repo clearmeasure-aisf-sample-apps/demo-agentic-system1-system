@@ -661,6 +661,17 @@ $checks = [ordered] @{
                 Assert-That ($null -ne $app) "stack-$slug-$e lists no container app for $name (a failed or unfinished apply?)"
                 $shared = @($system.azure.identities.apps | Where-Object { $_.environment -eq $e })[0]
                 $held = @($app.properties.configuration['secrets'] | Where-Object { $_ })
+                if ($system.azure['appEnvironment'] -is [Collections.IDictionary] -and [string] $system.azure.appEnvironment['mode'] -eq 'express') {
+                    # Express has no vault references (decision 0056): each declared secret is a manual secret that
+                    # "Apply environment" copied from the vault, and the variable reads it. The value is not compared.
+                    foreach ($secret in @($entry.secrets)) {
+                        Assert-That (@($held | Where-Object { $_.name -eq $secret.name }).Count -eq 1) "$($app.name) in $e (express) has no secret $($secret.name) copied from the vault"
+                        $variable = @($app.properties.template.containers[0].env | Where-Object { $_.name -eq $secret.env })[0]
+                        Assert-That ($null -ne $variable -and $variable['secretRef'] -eq $secret.name) "$($app.name) in $e does not get $($secret.env) from the secret $($secret.name)"
+                    }
+                    "$name in $e ($(@($entry.secrets).Count), express copies)"
+                    continue
+                }
                 $inline = @($held | Where-Object { -not $_['keyVaultUrl'] } | ForEach-Object { [string] $_.name })
                 Assert-That ($inline.Count -eq 0) "$($app.name) in $e holds $($inline -join ', ') as a stored value, not as a vault reference"
                 foreach ($secret in @($entry.secrets)) {
