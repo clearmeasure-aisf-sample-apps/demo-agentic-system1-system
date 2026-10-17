@@ -1950,7 +1950,7 @@ $entry = @($outputs.deployables.value | Where-Object { $_.name -eq $name -and $_
 if (-not $entry) {
     Fail-Step "Stack stack-$slug-$environmentName has no static site named ${name}: deploy the latest $slug-system release to $environmentName first."
 }
-$staticSite = [string] $entry.staticSite
+$staticSite = [string] $entry['staticSite']
 $url = ([string] $entry.url).TrimEnd('/')
 
 # system.json on main, through the API (raw.githubusercontent.com caches for minutes): the current desired state of
