@@ -45,13 +45,13 @@ function Sync-ExpressSecret {
     $appUri = "https://management.azure.com${AppId}?$api"
     $arm = @{ Authorization = "Bearer $(Get-ExpressAccessToken -Resource 'https://management.azure.com/')" }
     $vault = @{ Authorization = "Bearer $(Get-ExpressAccessToken -Resource 'https://vault.azure.net')" }
-    $app = Invoke-RestMethod -Method Get -Uri $appUri -Headers $arm -AsHashtable
+    $app = (Invoke-WebRequest -Method Get -Uri $appUri -Headers $arm).Content | ConvertFrom-Json -AsHashtable
     $name = [string] $app.name
 
     # The app's present values, so a secret this sync does not own survives the change.
     $values = [ordered] @{}
     if (@($app.properties.configuration['secrets'] | Where-Object { $_ }).Count -gt 0) {
-        $listed = Invoke-RestMethod -Method Post -Uri "https://management.azure.com${AppId}/listSecrets?$api" -Headers $arm -AsHashtable
+        $listed = (Invoke-WebRequest -Method Post -Uri "https://management.azure.com${AppId}/listSecrets?$api" -Headers $arm).Content | ConvertFrom-Json -AsHashtable
         foreach ($s in @($listed.value)) { $values[[string] $s.name] = [string] $s.value }
     }
     foreach ($s in $Secrets) {
@@ -82,7 +82,7 @@ function Sync-ExpressSecret {
     $values = $null
 
     foreach ($attempt in 1..60) {
-        $state = [string] (Invoke-RestMethod -Method Get -Uri $appUri -Headers $arm -AsHashtable).properties.provisioningState
+        $state = [string] ((Invoke-WebRequest -Method Get -Uri $appUri -Headers $arm).Content | ConvertFrom-Json -AsHashtable).properties.provisioningState
         if ($state -eq 'Succeeded') { break }
         if ($state -eq 'Failed') { throw "$name failed to take its secrets: provisioning state Failed" }
         Start-Sleep -Seconds 5
