@@ -104,7 +104,8 @@
       "databaseAssembly": "ClearMeasure.Bootcamp.Database.dll",
       "acceptanceTestsPackage": "ChurchBulletin.AcceptanceTests",
       "acceptanceTestsAssembly": "ClearMeasure.Bootcamp.AcceptanceTests.dll",
-      "dataLoaderAssembly": "ClearMeasure.Bootcamp.IntegrationTests.dll"
+      "dataLoaderAssembly": "ClearMeasure.Bootcamp.IntegrationTests.dll",
+      "acceptanceTestsWorkers": 3
     },
     {
       "name": "fworker",
