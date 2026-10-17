@@ -114,7 +114,9 @@
       "port": 8080,
       "healthPath": "/health",
       "environments": [
-        "tdd"
+        "tdd",
+        "uat",
+        "prod"
       ],
       "database": false,
       "cpu": "1",
@@ -125,6 +127,14 @@
       "environmentSettings": {
         "tdd": {
           "FACTORY_ENVIRONMENT": "tdd",
+          "FACTORY_RUNTIME_ENABLED": "false"
+        },
+        "uat": {
+          "FACTORY_ENVIRONMENT": "uat",
+          "FACTORY_RUNTIME_ENABLED": "false"
+        },
+        "prod": {
+          "FACTORY_ENVIRONMENT": "prod",
           "FACTORY_RUNTIME_ENABLED": "false"
         }
       },
