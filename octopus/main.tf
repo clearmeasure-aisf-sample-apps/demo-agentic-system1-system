@@ -97,17 +97,17 @@ resource "octopusdeploy_environment" "this" {
   use_guided_failure           = false
 }
 
-# The first environment deploys automatically; every later one is a manual promotion (an approval in the demo).
+# Every environment deploys automatically once the one before it succeeded: no manual promotion (kit decision 0060).
 resource "octopusdeploy_lifecycle" "system" {
   name        = "${local.slug}-lifecycle"
-  description = "Order of the environments in system.json: the first is automatic, the others are promoted by a person."
+  description = "Order of the environments in system.json: each deploys automatically after the one before it."
 
   dynamic "phase" {
     for_each = local.system.environments
     content {
       name                         = phase.value.name
-      automatic_deployment_targets = phase.key == 0 ? [octopusdeploy_environment.this[phase.value.name].id] : []
-      optional_deployment_targets  = phase.key == 0 ? [] : [octopusdeploy_environment.this[phase.value.name].id]
+      automatic_deployment_targets = [octopusdeploy_environment.this[phase.value.name].id]
+      optional_deployment_targets  = []
     }
   }
 }
@@ -132,14 +132,14 @@ resource "octopusdeploy_lifecycle" "deployable" {
   }
 
   name        = "${local.slug}-${each.key}-lifecycle"
-  description = "The environments ${each.key} exists in (system.json deployables[].environments), in the order of the system: the first is automatic, the others are promoted by a person."
+  description = "The environments ${each.key} exists in (system.json deployables[].environments), in the order of the system: each deploys automatically after the one before it."
 
   dynamic "phase" {
     for_each = [for e in local.system.environments : e.name if contains(each.value.environments, e.name)]
     content {
       name                         = phase.value
-      automatic_deployment_targets = phase.key == 0 ? [octopusdeploy_environment.this[phase.value].id] : []
-      optional_deployment_targets  = phase.key == 0 ? [] : [octopusdeploy_environment.this[phase.value].id]
+      automatic_deployment_targets = [octopusdeploy_environment.this[phase.value].id]
+      optional_deployment_targets  = []
     }
   }
 }

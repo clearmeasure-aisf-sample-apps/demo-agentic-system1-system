@@ -30,28 +30,8 @@ resource "octopusdeploy_process" "system" {
   project_id = octopusdeploy_project.system.id
 }
 
-# Every environment but the first: the step excludes the first instead of naming the others, because a release keeps
-# the process as it was when the release was created. A release made before an environment existed then still stops
-# at the sign-off when it is promoted there.
-# Systems synced while the step had a count keep their step instead of losing it and getting a new one.
-moved {
-  from = octopusdeploy_process_step.system_sign_off[0]
-  to   = octopusdeploy_process_step.system_sign_off
-}
-
-resource "octopusdeploy_process_step" "system_sign_off" {
-  process_id            = octopusdeploy_process.system.id
-  name                  = "Sign-off"
-  type                  = "Octopus.Manual"
-  excluded_environments = [octopusdeploy_environment.this[local.first_environment].id]
-
-  execution_properties = {
-    "Octopus.Action.RunOnServer"                       = "false"
-    "Octopus.Action.Manual.Instructions"               = "Sign off #{Octopus.Project.Name} #{Octopus.Release.Number} for #{Octopus.Environment.Name}: check the earlier environments, then Proceed with a note, or Abort."
-    "Octopus.Action.Manual.ResponsibleTeamIds"         = local.sign_off_team_id
-    "Octopus.Action.Manual.BlockConcurrentDeployments" = "False"
-  }
-}
+# No sign-off: every environment after the first is deployed automatically once the one before it succeeded
+# (decision 0060 of the kit: a teaching platform needs no person's approval for uat or prod).
 
 resource "octopusdeploy_process_step" "system_apply" {
   process_id     = octopusdeploy_process.system.id
@@ -146,7 +126,6 @@ resource "octopusdeploy_process_step" "system_middle_names" {
 resource "octopusdeploy_process_steps_order" "system" {
   process_id = octopusdeploy_process.system.id
   steps = concat(
-    [octopusdeploy_process_step.system_sign_off.id],
     [octopusdeploy_process_step.system_apply.id],
     [for step in octopusdeploy_process_step.system_grant : step.id],
     [for step in octopusdeploy_process_step.system_middle_names : step.id],
@@ -162,21 +141,6 @@ resource "octopusdeploy_process" "deployable" {
   project_id = octopusdeploy_project.deployable[each.key].id
 }
 
-resource "octopusdeploy_process_step" "sign_off" {
-  for_each = local.deployables
-
-  process_id            = octopusdeploy_process.deployable[each.key].id
-  name                  = "Sign-off"
-  type                  = "Octopus.Manual"
-  excluded_environments = [octopusdeploy_environment.this[local.first_environment].id]
-
-  execution_properties = {
-    "Octopus.Action.RunOnServer"                       = "false"
-    "Octopus.Action.Manual.Instructions"               = "Sign off #{Octopus.Project.Name} #{Octopus.Release.Number} for #{Octopus.Environment.Name}: check the earlier environments, then Proceed with a note, or Abort."
-    "Octopus.Action.Manual.ResponsibleTeamIds"         = local.sign_off_team_ids[each.key]
-    "Octopus.Action.Manual.BlockConcurrentDeployments" = "False"
-  }
-}
 
 # Prod tier: the restore point of the database before the release changes anything (scripts/record-restore-point.ps1).
 # The step excludes the nonprod environments instead of naming the prod ones, and is in the process from the start: a
@@ -784,7 +748,6 @@ resource "octopusdeploy_process_steps_order" "deployable" {
 
   process_id = octopusdeploy_process.deployable[each.key].id
   steps = concat(
-    [octopusdeploy_process_step.sign_off[each.key].id],
     contains(keys(octopusdeploy_process_step.restore_point), each.key) ? [octopusdeploy_process_step.restore_point[each.key].id] : [],
     [octopusdeploy_process_step.pin[each.key].id],
     contains(keys(local.migrated_deployables), each.key) ? [octopusdeploy_process_step.migrate[each.key].id] : [],
