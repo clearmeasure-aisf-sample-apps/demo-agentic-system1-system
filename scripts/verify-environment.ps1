@@ -147,6 +147,7 @@ foreach ($deployable in $deployables) {
     $uri = "$($deployable.url.TrimEnd('/'))$path"
     $deadline = (Get-Date).AddMinutes($deadlineMinutes)
     $status = 0
+    $problemCount = 0
     while ((Get-Date) -lt $deadline) {
         try {
             $status = [int] (Invoke-WebRequest -Uri $uri -Method Get -TimeoutSec 60 -SkipHttpErrorCheck).StatusCode
@@ -164,6 +165,14 @@ foreach ($deployable in $deployables) {
             'staticwebapp' { $null }
             'storagewebsite' { $null }
             default { Get-RevisionProblem -App $app }
+        }
+        # On express the one revision (--latest) is restarted by the secret sync right after the apply and can read
+        # Failed for a minute while it comes back: a problem fails the step only once seen on 8 checks in a row.
+        if ($problem) { $problemCount++ } else { $problemCount = 0 }
+        if ($problem -and $problemCount -lt 8) {
+            Write-Host "$uri answered $status; $problem (check $problemCount of 8, retrying)"
+            Start-Sleep -Seconds 15
+            continue
         }
         if ($problem) {
             Write-Warning "FAIL $($deployable.name) in ${environmentName}: $problem"
