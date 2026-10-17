@@ -1,0 +1,121 @@
+{
+  "system": {
+    "slug": "agentic1",
+    "name": "demo-agentic-system1",
+    "location": "eastus2",
+    "githubOrg": "clearmeasure-aisf-sample-apps",
+    "repository": "demo-agentic-system1-system",
+    "sqlLocation": "centralus"
+  },
+  "azure": {
+    "tenantId": "40645332-2e20-4bca-882c-b2706f93ce44",
+    "subscriptionId": "4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69",
+    "resourceGroups": {
+      "apps": "rg-agentic1-apps",
+      "nonprod": "rg-agentic1-nonprod",
+      "prod": "rg-agentic1-prod"
+    },
+    "registry": {
+      "loginServer": "acragentic125tqid.azurecr.io",
+      "name": "acragentic125tqid"
+    },
+    "terraformState": {
+      "container": "tfstate",
+      "resourceGroup": "rg-agentic1-nonprod",
+      "storageAccount": "stagentic1tf25tqid"
+    },
+    "identities": {
+      "acrPush": {
+        "clientId": "35e83798-8c05-4a11-9645-53d0009d4036",
+        "name": "id-agentic1-acr-push",
+        "principalId": "6fa8a9f1-e670-42c0-8df1-1965dcafa4c1"
+      },
+      "apps": [
+        {
+          "clientId": "c5456dfe-e99f-4a10-9207-c644afcf93a1",
+          "environment": "tdd",
+          "name": "id-agentic1-tdd-app",
+          "principalId": "74cc0b2c-6562-4afb-aef1-89bd9cdbc650",
+          "resourceId": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-tdd-app"
+        },
+        {
+          "clientId": "8d1512f6-0c37-4544-815c-147a1e0eb259",
+          "environment": "uat",
+          "name": "id-agentic1-uat-app",
+          "principalId": "3b177efb-ef73-474e-818d-2c0238f909b6",
+          "resourceId": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-uat-app"
+        },
+        {
+          "clientId": "a1cd7ddf-1438-4b1a-9818-efa2b4f13565",
+          "environment": "prod",
+          "name": "id-agentic1-prod-app",
+          "principalId": "fd245f18-069b-409c-93d4-acbe6f772de2",
+          "resourceId": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-prod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-prod-app"
+        }
+      ],
+      "deploy": {
+        "nonprod": {
+          "clientId": "8a75cbe7-e80e-4cbb-8de3-220bf1705eed",
+          "name": "id-agentic1-deploy-nonprod",
+          "principalId": "2bc0618d-2bbd-4379-a981-897c73c4e2e8"
+        },
+        "prod": {
+          "clientId": "2105b733-6072-4be8-9d03-4c7c0f3085ff",
+          "name": "id-agentic1-deploy-prod",
+          "principalId": "1d3434dc-18ed-4923-b1f8-f1b6476ecd40"
+        }
+      },
+      "octopusConfig": {
+        "clientId": "aff15560-53b0-4a39-9873-70c88fee72d2",
+        "name": "id-agentic1-octopus-config",
+        "principalId": "a5b5624c-9dce-4391-9fbe-79d5b62cc9ea"
+      },
+      "plan": {
+        "clientId": "c0e7b04e-7a0d-4474-8abb-e9d5674523b1",
+        "name": "id-agentic1-plan",
+        "principalId": "16d6c0bb-98ad-40a5-b23b-04384178205f"
+      }
+    },
+    "appEnvironment": {
+      "defaultDomain": "kindmushroom-29e23036.eastus2.azurecontainerapps.io",
+      "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-apps/providers/Microsoft.App/managedEnvironments/cae-agentic1",
+      "location": "eastus2",
+      "mode": "express",
+      "name": "cae-agentic1",
+      "resourceGroup": "rg-agentic1-apps",
+      "staticIp": ""
+    }
+  },
+  "octopus": {
+    "url": "https://clearmeasure.octopus.app",
+    "spaceId": "Spaces-415",
+    "spaceSlug": "demo-agentic-system1",
+    "serviceAccountId": "dee30260-3377-44c8-987b-9487828f7c65",
+    "approvers": [],
+    "operator": "ai-ops"
+  },
+  "deployables": [
+    {
+      "name": "ui",
+      "repository": "demo-agentic-system1-workorders",
+      "port": 8080,
+      "healthPath": "/_healthcheck",
+      "databasePackage": "ChurchBulletin.Database",
+      "databaseAssembly": "ClearMeasure.Bootcamp.Database.dll",
+      "acceptanceTestsPackage": "ChurchBulletin.AcceptanceTests",
+      "acceptanceTestsAssembly": "ClearMeasure.Bootcamp.AcceptanceTests.dll",
+      "dataLoaderAssembly": "ClearMeasure.Bootcamp.IntegrationTests.dll"
+    }
+  ],
+  "environments": [
+    {
+      "name": "tdd",
+      "tier": "nonprod",
+      "capabilities": [
+        "baseline"
+      ],
+      "acceptanceTests": true,
+      "appCpu": "0.5"
+    }
+  ]
+}
