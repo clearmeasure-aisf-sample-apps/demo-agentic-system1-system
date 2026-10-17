@@ -105,8 +105,7 @@
       "acceptanceTestsPackage": "ChurchBulletin.AcceptanceTests",
       "acceptanceTestsAssembly": "ClearMeasure.Bootcamp.AcceptanceTests.dll",
       "dataLoaderAssembly": "ClearMeasure.Bootcamp.IntegrationTests.dll",
-      "acceptanceTestsWorkers": 3,
-      "acceptanceTestsFilter": "Name!=AssignedToMe_WhenChecked_ShowsOnlyCurrentUsersWorkOrders&Name!=AssignedToMe_WhenUnchecked_RestoresFullList&Name!=ShouldCopyWorkOrderNumber_ToClipboard&Name!=ShouldDisplayCurrentUserInTable&Name!=ShouldDisplayInactiveVendorWithInactiveStatus&Name!=ShouldDisplayTableWithAllColumns&Name!=ShouldDisplayTeamCreatedThroughCommand&Name!=ShouldDisplayTeamMembersAsAvatars&Name!=ShouldDisplayVendorCreatedThroughCommand&Name!=ShouldDisplayVendorDetailsCorrectly&Name!=ShouldDisplayVendorEmailAsMailtoLink&Name!=ShouldDisplayZeroCountsForEmployeeWithNoWorkOrders&Name!=ShouldMatchGetWorkOrderDetailWithManageWhenInstructionsSet&Name!=ShouldMatchMcpUsernameFiltersToPortalSearch&Name!=ShouldMatchOpenCountBetweenTeamsPageAndSearchPage&Name!=ShouldNavigateToSearchWithQ_FromGlobalSearch&Name!=ShouldNotWidenResultsTableWithLongRoom&Name!=ShouldOpenUserMenuWithKeyboard_AndCloseOnEscape&Name!=ShouldRenderDarkModeWithoutBreakage&Name!=ShouldSortByNameAscendingByDefault"
+      "acceptanceTestsWorkers": 3
     },
     {
       "name": "fworker",
