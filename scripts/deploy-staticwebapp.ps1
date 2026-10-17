@@ -321,6 +321,28 @@ function ConvertTo-Topology {
                         $entry
                         continue
                     }
+                    if ((-not $app['hosting'] -or $app['hosting'] -eq 'containerapp') -and $System.azure['appEnvironment'] -is [Collections.IDictionary]) {
+                        # A container app of the system's Container Apps environment: one node, at
+                        # ca-<slug>-<env>-<name>.<default domain>, where the deployable is declared for this environment.
+                        if ($app['environments'] -and @($app['environments']) -notcontains $environmentName) { continue }
+                        $appName = "ca-$slug-$environmentName-$($app.name)"
+                        $nodeLinks = [ordered] @{}
+                        $nodeGroup = if ($group) { $group } else { $null }
+                        if ($nodeGroup) { $nodeLinks.portal = Get-PortalAddress -ResourceId "$nodeGroup/providers/Microsoft.App/containerApps/$appName" -TenantId $tenantId }
+                        [ordered] @{
+                            name             = [string] $app.name
+                            projectUrl       = if ($projects) { "$projects/$slug-$($app.name)" } else { $null }
+                            frontDoor        = $null
+                            healthPath       = if ($app['healthPath']) { [string] $app.healthPath } else { '/_healthcheck' }
+                            telemetryPath    = if ($app['telemetryPath']) { [string] $app.telemetryPath } else { $null }
+                            trafficPaths     = if ($app['trafficPaths']) { , @($app.trafficPaths | ForEach-Object { [string] $_ }) } else { $null }
+                            buildPath        = if ($app['buildPath']) { [string] $app.buildPath } else { $null }
+                            healthDetailPath = if ($app['healthDetailPath']) { [string] $app.healthDetailPath } else { $null }
+                            links            = [ordered] @{}
+                            nodes            = @([ordered] @{ name = $appName; region = [string] $System.azure.appEnvironment.location; role = 'primary'; url = "https://$appName.$([string] $System.azure.appEnvironment.defaultDomain)"; links = $nodeLinks })
+                        }
+                        continue
+                    }
                     if ($app['hosting'] -ne 'appservice') { continue }
                     $primary = "app-$slug-$environmentName-$($app.name)"
                     $nodes = @([ordered] @{ name = $primary; region = $location; role = 'primary'; url = "https://$primary.azurewebsites.net" })
