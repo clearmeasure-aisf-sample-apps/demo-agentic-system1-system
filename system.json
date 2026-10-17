@@ -105,6 +105,49 @@
       "acceptanceTestsPackage": "ChurchBulletin.AcceptanceTests",
       "acceptanceTestsAssembly": "ClearMeasure.Bootcamp.AcceptanceTests.dll",
       "dataLoaderAssembly": "ClearMeasure.Bootcamp.IntegrationTests.dll"
+    },
+    {
+      "name": "fworker",
+      "repository": "demo-agentic-system1-fworker",
+      "port": 8080,
+      "healthPath": "/health",
+      "environments": [
+        "tdd"
+      ],
+      "database": false,
+      "cpu": "1",
+      "settings": {
+        "FACTORY_OWNER_MODE": "1",
+        "FACTORY_AUTHOR_APP": "0"
+      },
+      "environmentSettings": {
+        "tdd": {
+          "FACTORY_ENVIRONMENT": "tdd",
+          "FACTORY_RUNTIME_ENABLED": "false"
+        }
+      },
+      "urlSetting": "FACTORY_PUBLIC_URL",
+      "secrets": [
+        {
+          "name": "dev-token",
+          "env": "FACTORY_DEV_TOKEN",
+          "generate": true
+        },
+        {
+          "name": "webhook-secret",
+          "env": "FACTORY_WEBHOOK_SECRET",
+          "generate": true
+        },
+        {
+          "name": "token-secret",
+          "env": "FACTORY_TOKEN_SECRET",
+          "generate": true
+        },
+        {
+          "name": "github-token",
+          "env": "FACTORY_APP_AUTHOR_KEY"
+        }
+      ]
     }
   ],
   "environments": [
