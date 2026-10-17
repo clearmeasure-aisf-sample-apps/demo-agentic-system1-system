@@ -51,7 +51,7 @@ function Sync-ExpressSecret {
     # The app's present values, so a secret this sync does not own survives the change.
     $values = [ordered] @{}
     if (@($app.properties.configuration['secrets'] | Where-Object { $_ }).Count -gt 0) {
-        $listed = (Invoke-WebRequest -Method Post -Uri "https://management.azure.com${AppId}/listSecrets?$api" -Headers $arm).Content | ConvertFrom-Json -AsHashtable
+        $listed = (Invoke-WebRequest -Method Post -Uri "https://management.azure.com${AppId}/listSecrets?$api" -Headers $arm -ContentType 'application/json' -Body '{}').Content | ConvertFrom-Json -AsHashtable
         foreach ($s in @($listed.value)) { $values[[string] $s.name] = [string] $s.value }
     }
     foreach ($s in $Secrets) {

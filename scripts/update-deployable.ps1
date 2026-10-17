@@ -311,7 +311,7 @@ else {
         $configuration = @{ registries = @(@{ server = $registry; identity = $pullIdentity }) }
         $armHeaders = @{ Authorization = "Bearer $([string] (az account get-access-token --resource 'https://management.azure.com/' --query accessToken --output tsv))".Trim() }
         if (@($current.properties.configuration['secrets'] | Where-Object { $_ }).Count -gt 0) {
-            $listed = (Invoke-WebRequest -Method Post -Uri "https://management.azure.com$($current.id)/listSecrets?api-version=2026-07-01" -Headers $armHeaders).Content | ConvertFrom-Json -AsHashtable
+            $listed = (Invoke-WebRequest -Method Post -Uri "https://management.azure.com$($current.id)/listSecrets?api-version=2026-07-01" -Headers $armHeaders -ContentType 'application/json' -Body '{}').Content | ConvertFrom-Json -AsHashtable
             $configuration.secrets = @(@($listed.value) | ForEach-Object { @{ name = [string] $_.name; value = [string] $_.value } })
             $listed = $null
         }
