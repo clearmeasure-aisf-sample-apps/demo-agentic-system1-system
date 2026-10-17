@@ -107,7 +107,9 @@ resource apps 'Microsoft.App/containerApps@2025-01-01' = [
       environmentId: resourceId(managedEnvironmentResourceGroup, 'Microsoft.App/managedEnvironments', managedEnvironmentName)
       ...(express ? {} : { workloadProfileName: 'Consumption' })
       configuration: {
-        ...(empty(d.secretIdentityId)
+        // Express has no identitySettings (ExpressEnvironmentFeatureNotSupported): there the shared identity stays
+        // reachable from the app's code (decision 0056).
+        ...(empty(d.secretIdentityId) || express
           ? {}
           : {
               identitySettings: [
