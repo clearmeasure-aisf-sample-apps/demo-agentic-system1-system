@@ -93,7 +93,7 @@ function Publish-StorageWebsite {
         [Parameter(Mandatory)] [string] $Generated
     )
     $login = @('--account-name', $Account, '--auth-mode', 'login', '--only-show-errors')
-    $list = @('storage', 'blob', 'list', '--container-name', '$web', '--num-results', '*', '--query', '[].name', '--output', 'tsv') + $login
+    $list = @('storage', 'blob', 'list', '--container-name', '$web', '--num-results', '5000', '--query', '[].name', '--output', 'tsv') + $login
     $switched = Invoke-StorageCommand -Arguments (@('storage', 'blob', 'service-properties', 'update', '--static-website', 'true', '--index-document', 'index.html', '--404-document', '404.html', '--output', 'none') + $login)
     if ($switched.Code -ne 0 -or $switched.Errors.Count -gt 0) {
         Fail-Step "The static website of $Account could not be switched on (exit code $($switched.Code)): $($switched.Errors -join ' ')"
