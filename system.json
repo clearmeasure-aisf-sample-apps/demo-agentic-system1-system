@@ -161,6 +161,13 @@
       ],
       "acceptanceTests": true,
       "appCpu": "2"
+    },
+    {
+      "name": "uat",
+      "tier": "nonprod",
+      "capabilities": [
+        "baseline"
+      ]
     }
   ]
 }
