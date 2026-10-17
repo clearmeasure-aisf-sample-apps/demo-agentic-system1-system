@@ -487,27 +487,16 @@ $checks = [ordered] @{
         Assert-That $rolledBack "no successful redeployment of an older release in $first"; "an older release was redeployed successfully in $first (test-rollback.ps1)"
     }
     'CAP-038' = {
-        # The sign-off step is in the process from the start (it excludes the first environment), so a release made
-        # while the system had one environment still stops at it in every environment added later. Its responsible
-        # team is "<slug> approvers" (octopus/approvers.tf: the people of system.json octopus.approvers and the operator).
-        $teamName = "$slug approvers"
-        $team = @((Invoke-Octopus "/api/$space/teams?partialName=$([uri]::EscapeDataString($teamName))&take=100").Items | Where-Object { $_.Name -eq $teamName -and $_.SpaceId -eq $space }) | Select-Object -First 1
-        Assert-That ($null -ne $team) "no team '$teamName' in the space"
+        # No person signs off (kit decision 0060): neither project has a manual step, and every phase of the lifecycle
+        # deploys automatically once the one before it succeeded.
         foreach ($project in $systemProject, $deployableProject) {
-            $s = @(Get-ProcessStep $project)[0]
-            Assert-That ($s.Name -eq 'Sign-off' -and $s.Actions[0].ActionType -eq 'Octopus.Manual') "$project does not start with Sign-off"
-            $responsible = $s.Actions[0].Properties.PSObject.Properties['Octopus.Action.Manual.ResponsibleTeamIds']
-            $responsibleIds = if ($responsible) { [string] $responsible.Value } else { '' }
-            # A deployable with pipelineSignOff (decision 0048) has a second responsible team, "<slug> pipeline
-            # sign-off"; any other Sign-off has the approvers alone.
-            $ids = @($responsibleIds -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ })
-            $pipeline = $project -ne $systemProject -and @($system.deployables | Where-Object { "$slug-$($_.name)" -eq $project -and $_['pipelineSignOff'] -eq $true }).Count -gt 0
-            $pipelineTeam = if ($pipeline) { @((Invoke-Octopus "/api/$space/teams?partialName=$([uri]::EscapeDataString("$slug pipeline sign-off"))&take=100").Items | Where-Object { $_.Name -eq "$slug pipeline sign-off" -and $_.SpaceId -eq $space }) | Select-Object -First 1 }
-            $want = @($team.Id) + @(if ($pipelineTeam) { $pipelineTeam.Id })
-            Assert-That (-not $pipeline -or $null -ne $pipelineTeam) "$project has pipelineSignOff, and the space has no team '$slug pipeline sign-off'"
-            Assert-That ((@($ids | Sort-Object) -join ',') -eq (@($want | Sort-Object) -join ',')) "the Sign-off of $project is for '$responsibleIds', not for $(if ($pipeline) { "teams '$teamName' and '$slug pipeline sign-off'" } else { "team '$teamName'" }) ($($want -join ','))"
+            $manual = @(Get-ProcessStep $project | Where-Object { @($_.Actions | Where-Object { $_.ActionType -eq 'Octopus.Manual' }).Count -gt 0 })
+            Assert-That ($manual.Count -eq 0) "$project has a manual step: $(@($manual | ForEach-Object { $_.Name }) -join ', ')"
+            $lifecycle = Invoke-Octopus "/api/$space/lifecycles/$((Get-Project $project).LifecycleId)"
+            $optional = @($lifecycle.Phases | Where-Object { @($_.OptionalDeploymentTargets).Count -gt 0 })
+            Assert-That ($optional.Count -eq 0) "the lifecycle of $project waits for a promotion in $(@($optional | ForEach-Object { $_.Name }) -join ', ')"
         }
-        Assert-That ((Get-RepoFile $systemRepo 'octopus/projects.tf') -match 'octopusdeploy_project_deployment_freeze') 'no freeze support'; "Sign-off first in both projects, for team '$teamName'; freezes from system.json"
+        Assert-That ((Get-RepoFile $systemRepo 'octopus/projects.tf') -match 'octopusdeploy_project_deployment_freeze') 'no freeze support'; "no sign-off and automatic promotion in both projects; freeze support"
     }
     'CAP-039' = {
         if ($onAppService) {
