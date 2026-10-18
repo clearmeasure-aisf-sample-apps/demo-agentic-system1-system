@@ -64,7 +64,12 @@ jobs:
             git -C "$RUNNER_TEMP/data" switch -c "$DATA_BRANCH"
           else
             git worktree add --orphan -b "$DATA_BRANCH" "$RUNNER_TEMP/data"
-            printf '# Weekly delivery scorecard\n\nWritten by `.github/workflows/scorecard.yml` on the default branch. `latest/summary.md` is the newest week; `weekly/<ISO week>/` keeps every run; `history.csv` has one row per run week and scorecard week.\n' > "$RUNNER_TEMP/data/README.md"
+            {
+              echo '# Weekly delivery scorecard'
+              echo
+              echo 'Written by .github/workflows/scorecard.yml of the default branch. latest/summary.md is the newest week;'
+              echo 'weekly/<ISO week>/ keeps every run; history.csv has one row per run week and scorecard week.'
+            } > "$RUNNER_TEMP/data/README.md"
           fi
       - name: Harvest and score
         env:
