@@ -69,7 +69,7 @@
     appears with the first hourly run that finds it and what Azure amends later within six hours.
 
     Cost Management throttles (HTTP 429): a throttled query is tried again after the pause Azure names, or after
-    20 s times the attempt (as the kit's get-fleet-limits.ps1), up to -Attempts times. A pause above
+    20 s times the attempt (as the kit's get-platform-limits.ps1), up to -Attempts times. A pause above
     -MaxWaitSeconds is not waited for.
 
     Azure: the current az login (azure/login as id-<slug>-plan in the workflow, which the seed made Cost Management
@@ -236,7 +236,7 @@ if ($EveryHours -gt 1 -and $before -and -not $estimateDue -and [string] $before[
     }
 }
 function Invoke-CostQuery([string] $Uri, [string] $BodyPath) {
-    # The kit's cost query (get-fleet-limits.ps1): az rest, and the one known transient, 429, tried again after a
+    # The kit's cost query (get-platform-limits.ps1): az rest, and the one known transient, 429, tried again after a
     # pause (principle 004). Azure names the pause in its answer ("retry after N seconds") or not at all.
     for ($attempt = 1; ; $attempt++) {
         $PSNativeCommandUseErrorActionPreference = $false

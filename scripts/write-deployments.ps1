@@ -34,7 +34,7 @@
     In flight first, the one that started first at the top; then what ended, the last one first. An empty list says
     that nothing is being deployed.
 
-    Beside the list, in the names and words of the platform's "activity" (docs/fleet.md of the kit):
+    Beside the list, in the names and words of the platform's "activity" (docs/platform.md of the kit):
 
       recent[]     the last deployment that ended of each project in each environment, the last one first: project,
                    release, environment, result (succeeded, failed, canceled), finished, startedBy, url. It stays
