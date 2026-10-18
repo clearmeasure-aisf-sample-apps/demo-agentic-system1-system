@@ -100,6 +100,7 @@
       "repository": "demo-agentic-system1-workorders",
       "port": 8080,
       "healthPath": "/_healthcheck",
+      "buildPath": "/_build",
       "databasePackage": "ChurchBulletin.Database",
       "databaseAssembly": "ClearMeasure.Bootcamp.Database.dll",
       "acceptanceTestsPackage": "ChurchBulletin.AcceptanceTests",
@@ -117,6 +118,7 @@
       "repository": "demo-agentic-system1-fworker",
       "port": 8080,
       "healthPath": "/health",
+      "buildPath": "/_build",
       "environments": [
         "tdd",
         "uat",
@@ -169,7 +171,8 @@
       "name": "dashboard",
       "repository": "demo-agentic-system1-dashboard",
       "hosting": "storagewebsite",
-      "healthPath": "/"
+      "healthPath": "/",
+      "buildPath": "/build-facts.json"
     }
   ],
   "environments": [
