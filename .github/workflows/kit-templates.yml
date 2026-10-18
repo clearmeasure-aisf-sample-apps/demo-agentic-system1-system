@@ -2,7 +2,7 @@
 # Every day this workflow compares the repository with the kit's templates and, when they differ, opens a pull
 # request here with the kit's files (branch kit-templates), or updates the one that is open. It never merges: the
 # system's owner reads the env-checks preview, merges and promotes the release to every environment, or closes the
-# pull request and declares the files this system keeps as its own (fleet.ownedTemplates of its registry file in the
+# pull request and declares the files this system keeps as its own (platform.ownedTemplates of its registry file in the
 # kit; the proposal leaves those alone).
 # The switch is the repository variable KIT_REPOSITORY (<owner>/<name> of the kit): without it the workflow does
 # nothing, and the owner removes it to stop following. It follows the kit's branch green, which moves to a commit of
@@ -171,12 +171,12 @@ jobs:
           GH_TOKEN: ${{ steps.app.outputs.token || secrets.OCTOPUS_GITHUB_TOKEN }}
         run: |
           # This system's file in the kit's registry: the one whose system repository is this repository.
-          $file = Get-ChildItem -LiteralPath kit/fleet/systems -Filter '*.json' | Where-Object {
+          $file = Get-ChildItem -LiteralPath kit/platform/systems -Filter '*.json' | Where-Object {
             $demo = Get-Content -LiteralPath $_.FullName -Raw | ConvertFrom-Json
             "$($demo.githubOrg)/$($demo.slug)-system" -eq $env:GITHUB_REPOSITORY
           } | Select-Object -First 1
           if (-not $file) {
-            Write-Host "FAIL no file of fleet/systems in the kit names $env:GITHUB_REPOSITORY as its system repository"
+            Write-Host "FAIL no file of platform/systems in the kit names $env:GITHUB_REPOSITORY as its system repository"
             exit 1
           }
           pwsh -NoProfile -File kit/.claude/skills/demo-environment/scripts/sync-system-templates.ps1 -Config $file.FullName -Propose
