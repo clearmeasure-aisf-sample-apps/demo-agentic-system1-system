@@ -1,0 +1,87 @@
+# The system's weekly delivery scorecard, as a GitHub Action (decision 0062): no Azure resource. Every Monday (and
+# on demand) it builds the delivery scorecard (Scorecard.Web of the scorecard source, a pinned commit) on the runner,
+# harvests the system's repositories (the system repository and every deployable of system.json, or the list in
+# .github/scorecard/connections.json), reads the numbers through the scorecard's read-only MCP endpoint, and commits
+# them (JSON, CSV and a markdown summary, by ISO week) to the branch scorecard-data of this repository with the run's
+# own token. The dashboards read latest/summary.json of that branch.
+# Secrets: SCORECARD_SOURCE_TOKEN reads the scorecard source, else the stored token OCTOPUS_GITHUB_TOKEN. The harvest
+# reads the system's repositories with SCORECARD_HARVEST_TOKEN, else OCTOPUS_GITHUB_TOKEN, else the run's own token.
+# SCORECARD_OCTOPUS_KEY (a read-only Octopus key) pairs each repository with its Octopus project; without it the
+# delivered stage is Merged.
+name: Weekly scorecard
+
+on:
+  schedule:
+    - cron: '17 6 * * 1'   # Mondays 06:17 UTC
+  workflow_dispatch:
+    inputs:
+      since_days:
+        description: Days of history to harvest
+        default: '84'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-scorecard
+  cancel-in-progress: false
+
+env:
+  SCORECARD_SOURCE_REPO: clearmeasure-aisf-sample-apps/cmdemo1-scorecard
+  SCORECARD_SOURCE_REF: 95f8c8c0de1df262896e326c81c5b9937a7cdd26
+  DATA_BRANCH: scorecard-data
+
+jobs:
+  scorecard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Check out this repository
+        uses: actions/checkout@v4
+        with:
+          path: system
+      - name: Check out the scorecard source
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SCORECARD_SOURCE_REPO }}
+          ref: ${{ env.SCORECARD_SOURCE_REF }}
+          token: ${{ secrets.SCORECARD_SOURCE_TOKEN || secrets.OCTOPUS_GITHUB_TOKEN }}
+          path: scorecard-src
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Build the scorecard
+        run: dotnet publish scorecard-src/Scorecard.Web -c Release -o "$RUNNER_TEMP/scorecard-web" -p:NuGetAudit=false --nologo -v q
+      - name: Check out the data branch
+        working-directory: system
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin "$DATA_BRANCH" >/dev/null; then
+            git fetch --depth 1 origin "$DATA_BRANCH"
+            git worktree add "$RUNNER_TEMP/data" "origin/$DATA_BRANCH"
+            git -C "$RUNNER_TEMP/data" switch -c "$DATA_BRANCH"
+          else
+            git worktree add --orphan -b "$DATA_BRANCH" "$RUNNER_TEMP/data"
+            printf '# Weekly delivery scorecard\n\nWritten by `.github/workflows/scorecard.yml` on the default branch. `latest/summary.md` is the newest week; `weekly/<ISO week>/` keeps every run; `history.csv` has one row per run week and scorecard week.\n' > "$RUNNER_TEMP/data/README.md"
+          fi
+      - name: Harvest and score
+        env:
+          SCORECARD_DLL: ${{ runner.temp }}/scorecard-web/Scorecard.Web.dll
+          OUT_DIR: ${{ runner.temp }}/data
+          CONNECTIONS_FILE: system/.github/scorecard/connections.json
+          HARVEST_TOKEN: ${{ secrets.SCORECARD_HARVEST_TOKEN || secrets.OCTOPUS_GITHUB_TOKEN || github.token }}
+          OCTOPUS_KEY: ${{ secrets.SCORECARD_OCTOPUS_KEY }}
+          SINCE_DAYS: ${{ inputs.since_days || '84' }}
+          SYSTEM_JSON: system/system.json
+          SYSTEM_NAME: ${{ github.event.repository.name }}
+        run: bash system/scripts/run-weekly-scorecard.sh
+      - name: Commit the week's numbers
+        working-directory: ${{ runner.temp }}/data
+        run: |
+          git add -A
+          if git diff --cached --quiet; then echo "No change"; exit 0; fi
+          git commit -q -m "Scorecard $(date -u +%G-W%V)"
+          git push origin "$DATA_BRANCH"
+          cat latest/summary.md >> "$GITHUB_STEP_SUMMARY"
