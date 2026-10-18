@@ -105,7 +105,12 @@
       "acceptanceTestsPackage": "ChurchBulletin.AcceptanceTests",
       "acceptanceTestsAssembly": "ClearMeasure.Bootcamp.AcceptanceTests.dll",
       "dataLoaderAssembly": "ClearMeasure.Bootcamp.IntegrationTests.dll",
-      "acceptanceTestsWorkers": 3
+      "acceptanceTestsWorkers": 3,
+      "environmentSettings": {
+        "tdd": {
+          "ApiRateLimiting__Enabled": "false"
+        }
+      }
     },
     {
       "name": "fworker",
