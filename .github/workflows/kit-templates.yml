@@ -173,7 +173,7 @@ jobs:
           # This system's file in the kit's registry: the one whose system repository is this repository.
           $file = Get-ChildItem -LiteralPath kit/platform/systems -Filter '*.json' | Where-Object {
             $demo = Get-Content -LiteralPath $_.FullName -Raw | ConvertFrom-Json
-            "$($demo.githubOrg)/$(if ($demo.PSObject.Properties['systemRepository'] -and $demo.systemRepository) { $demo.systemRepository } else { "$($demo.slug)-system" })" -eq $env:GITHUB_REPOSITORY
+            "$($demo.githubOrg)/$($demo.slug)-system" -eq $env:GITHUB_REPOSITORY
           } | Select-Object -First 1
           if (-not $file) {
             Write-Host "FAIL no file of platform/systems in the kit names $env:GITHUB_REPOSITORY as its system repository"

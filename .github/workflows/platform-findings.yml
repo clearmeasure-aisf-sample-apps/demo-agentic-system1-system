@@ -183,12 +183,8 @@ jobs:
         run: |
           $scripts = 'kit/.claude/skills/demo-environment/scripts'
           # This system's file in the kit's registry: the one whose system repository is this repository.
-          # Its system repository is <slug>-system, or the name its file gives in systemRepository.
           $demo = Get-ChildItem -LiteralPath kit/platform/systems -Filter '*.json' | ForEach-Object { Get-Content -LiteralPath $_.FullName -Raw | ConvertFrom-Json } |
-            Where-Object {
-              $name = if ($_.PSObject.Properties['systemRepository'] -and $_.systemRepository) { $_.systemRepository } else { "$($_.slug)-system" }
-              "$($_.githubOrg)/$name" -eq $env:GITHUB_REPOSITORY
-            } | Select-Object -First 1
+            Where-Object { "$($_.githubOrg)/$($_.slug)-system" -eq $env:GITHUB_REPOSITORY } | Select-Object -First 1
           if (-not $demo) {
             Write-Host "FAIL no file of platform/systems in the kit names $env:GITHUB_REPOSITORY as its system repository"
             exit 1

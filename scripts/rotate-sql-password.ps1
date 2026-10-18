@@ -9,8 +9,7 @@
     Runbook "Rotate SQL password" of the Octopus project <slug>-system (scheduled monthly in every environment;
     octopus/runbooks.tf inlines this file). Capability CAP-056. It generates a password, sets it on the SQL server
     through the ARM API from a private file (never in an argument), writes it and the connection string to the
-    environment's Key Vault, restarts each container app's latest revision so it reads the new secret (in an express
-    environment it copies the new values into the app's secrets instead, decision 0056), and checks
+    environment's Key Vault, restarts each container app's latest revision so it reads the new secret, and checks
     that each of them answers its health path. The next "Apply environment" reads the password from the vault, so Git
     and the environment stay consistent.
 
@@ -110,14 +109,7 @@ foreach ($deployable in @($outputs.deployables.value | Where-Object { $_['contai
     $app = [string] $deployable.containerApp
     $appId = ([string] (az containerapp show --name $app --resource-group $resourceGroup --query id --output tsv)).Trim()
     $revision = ([string] (az containerapp show --name $app --resource-group $resourceGroup --query properties.latestRevisionName --output tsv)).Trim()
-    if ($deployable.ContainsKey('expressSecrets') -and @($deployable.expressSecrets).Count -gt 0) {
-        # Express (decision 0056): no vault reference and no revision restart (the API answers 500 there). The app's
-        # secrets are copies, so the new values are copied in, which starts the app again with them.
-        Sync-ExpressSecret -AppId $appId -Secrets @($deployable.expressSecrets) -RegistryServer ([string] $OctopusParameters['Azure.RegistryServer'])
-    }
-    else {
-        az rest --method post --url "https://management.azure.com$appId/revisions/$revision/restart?api-version=2024-03-01" --output none
-    }
+    az rest --method post --url "https://management.azure.com$appId/revisions/$revision/restart?api-version=2024-03-01" --output none
     $uri = "$(([string] $deployable.url).TrimEnd('/'))$($deployable.healthPath)"
     $deadline = (Get-Date).AddMinutes(10)
     $status = 0

@@ -113,7 +113,6 @@ resource "octopusdeploy_process" "runbook" {
   runbook_id = octopusdeploy_runbook.this[each.key].id
 }
 
-# The rotation joins express-secrets.ps1 before its script: it copies the new values into an express app's secrets.
 resource "octopusdeploy_process_step" "runbook" {
   for_each = local.runbooks
 
@@ -128,7 +127,7 @@ resource "octopusdeploy_process_step" "runbook" {
     "Octopus.Action.RunOnServer"         = "true"
     "Octopus.Action.Script.ScriptSource" = "Inline"
     "Octopus.Action.Script.Syntax"       = "PowerShell"
-    "Octopus.Action.Script.ScriptBody"   = each.value.script == "rotate-sql-password.ps1" ? join("\n", [local.express_secret_functions, file("${path.module}/../scripts/${each.value.script}")]) : file("${path.module}/../scripts/${each.value.script}")
+    "Octopus.Action.Script.ScriptBody"   = file("${path.module}/../scripts/${each.value.script}")
     "OctopusUseBundledTooling"           = "False"
   }
 }

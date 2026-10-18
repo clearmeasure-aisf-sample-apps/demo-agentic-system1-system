@@ -69,14 +69,8 @@ function Sync-ExpressSecret {
 
     $containers = @($app.properties.template.containers)
     $mapped = @($Secrets | ForEach-Object { [string] $_.env })
-    $envVars = @(@($containers[0]['env']) | Where-Object { $_ -and $mapped -notcontains [string] $_.name -and [string] $_.name -ne 'SECRETS_VERSION' })
+    $envVars = @(@($containers[0]['env']) | Where-Object { $_ -and $mapped -notcontains [string] $_.name })
     foreach ($s in $Secrets) { $envVars += @{ name = [string] $s.env; secretRef = [string] $s.name } }
-    # A changed secret alone starts no new container, and an express app's revision cannot be restarted (the API
-    # answers 500): the running container would keep the old value. A short digest of the values the app is given
-    # changes with them, so a new value starts the app again, and an unchanged one changes nothing.
-    $digest = [Security.Cryptography.SHA256]::HashData([Text.Encoding]::UTF8.GetBytes((@($Secrets | ForEach-Object { "$($_.name)=$($values[[string] $_.name])" }) -join "`n")))
-    $envVars += @{ name = 'SECRETS_VERSION'; value = [Convert]::ToHexString($digest).Substring(0, 12).ToLowerInvariant() }
-    $digest = $null
     $containers[0].env = $envVars
 
     $pullIdentity = [string] (@($app.identity.userAssignedIdentities.Keys | Where-Object { $_ -match '/id-[^/]+-app$' }) | Select-Object -First 1)
