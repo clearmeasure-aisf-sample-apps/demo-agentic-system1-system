@@ -1,0 +1,70 @@
+{
+  "system": "demo-agentic-system1-system",
+  "isoWeek": "2026-W42",
+  "generatedUtc": "2026-10-18T16:28:26Z",
+  "harvestSince": "2026-07-26",
+  "repositories": [
+    {
+      "id": "system",
+      "repository": "clearmeasure-aisf-sample-apps/demo-agentic-system1-system",
+      "workItems": 80,
+      "issues": 1,
+      "pullRequests": 22,
+      "deployments": 0,
+      "deliveredStage": "Merged"
+    },
+    {
+      "id": "ui",
+      "repository": "clearmeasure-aisf-sample-apps/demo-agentic-system1-workorders",
+      "workItems": 10,
+      "issues": 0,
+      "pullRequests": 9,
+      "deployments": 0,
+      "deliveredStage": "Merged"
+    },
+    {
+      "id": "fworker",
+      "repository": "clearmeasure-aisf-sample-apps/demo-agentic-system1-fworker",
+      "workItems": 1,
+      "issues": 0,
+      "pullRequests": 0,
+      "deployments": 0,
+      "deliveredStage": "Merged"
+    },
+    {
+      "id": "dashboard",
+      "repository": "clearmeasure-aisf-sample-apps/demo-agentic-system1-dashboard",
+      "workItems": 2,
+      "issues": 0,
+      "pullRequests": 1,
+      "deployments": 0,
+      "deliveredStage": "Merged"
+    }
+  ],
+  "latestWeek": {
+    "periodLabel": "W42 2026-10-12",
+    "weekStart": "2026-10-12T00:00:00+00:00",
+    "itemsDelivered": 91,
+    "throughput": 275,
+    "rework": 0,
+    "netThroughput": 275,
+    "itemsStarted": 93,
+    "workInProcess": 2,
+    "meanTimeToDeliveryHours": 0.04,
+    "closedNotDelivered": 0
+  },
+  "weeks": [
+    {
+      "periodLabel": "W42 2026-10-12",
+      "weekStart": "2026-10-12T00:00:00+00:00",
+      "itemsDelivered": 91,
+      "throughput": 275,
+      "rework": 0,
+      "netThroughput": 275,
+      "itemsStarted": 93,
+      "workInProcess": 2,
+      "meanTimeToDeliveryHours": 0.04,
+      "closedNotDelivered": 0
+    }
+  ]
+}

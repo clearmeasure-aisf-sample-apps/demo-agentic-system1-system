@@ -1,0 +1,46 @@
+{
+  "harvested": true,
+  "scope": {
+    "repository": null,
+    "wholeSystem": true,
+    "repositories": [
+      "system",
+      "ui",
+      "fworker",
+      "dashboard"
+    ]
+  },
+  "items": "all",
+  "automationItemsLeftOut": 0,
+  "productionEnvironments": [],
+  "summary": {
+    "weeks": 0,
+    "deploymentFrequency": {
+      "count": 0,
+      "perDay": null,
+      "band": null
+    },
+    "leadTimeForChanges": {
+      "items": 0,
+      "itemsWithoutStart": 0,
+      "medianHours": null,
+      "meanHours": null,
+      "mergeToDeliveredMedianHours": null,
+      "band": null
+    },
+    "changeFailureRate": {
+      "deployments": 0,
+      "failed": 0,
+      "rate": null,
+      "band": null
+    },
+    "timeToRestore": {
+      "restored": 0,
+      "unrestored": 0,
+      "medianHours": null,
+      "meanHours": null,
+      "band": null
+    }
+  },
+  "weeks": []
+}

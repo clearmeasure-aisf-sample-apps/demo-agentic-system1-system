@@ -1,0 +1,46 @@
+{
+  "harvested": true,
+  "scope": {
+    "repository": null,
+    "wholeSystem": true,
+    "repositories": [
+      "system",
+      "ui",
+      "fworker",
+      "dashboard"
+    ]
+  },
+  "items": "all",
+  "automationItemsLeftOut": 0,
+  "weeks": [
+    {
+      "weekStart": "2026-10-12",
+      "stages": [
+        {
+          "stage": "Created",
+          "averageHours": null,
+          "stays": 0,
+          "skipped": 92
+        },
+        {
+          "stage": "Development",
+          "averageHours": 0,
+          "stays": 32,
+          "skipped": 60
+        },
+        {
+          "stage": "In Review",
+          "averageHours": 0.11,
+          "stays": 31,
+          "skipped": 60
+        },
+        {
+          "stage": "Merged",
+          "averageHours": null,
+          "stays": 0,
+          "skipped": 0
+        }
+      ]
+    }
+  ]
+}

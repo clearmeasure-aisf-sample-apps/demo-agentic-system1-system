@@ -1,0 +1,32 @@
+{
+  "harvested": true,
+  "scope": {
+    "repository": null,
+    "wholeSystem": true,
+    "repositories": [
+      "system",
+      "ui",
+      "fworker",
+      "dashboard"
+    ]
+  },
+  "items": "all",
+  "automationItemsLeftOut": 0,
+  "scorecardId": "delivery",
+  "metricSet": "All items",
+  "error": null,
+  "weeks": [
+    {
+      "periodLabel": "W42 2026-10-12",
+      "weekStart": "2026-10-12T00:00:00+00:00",
+      "itemsDelivered": 91,
+      "throughput": 275,
+      "rework": 0,
+      "netThroughput": 275,
+      "itemsStarted": 93,
+      "workInProcess": 2,
+      "meanTimeToDeliveryHours": 0.04,
+      "closedNotDelivered": 0
+    }
+  ]
+}
