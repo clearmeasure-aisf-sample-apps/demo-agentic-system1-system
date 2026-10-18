@@ -19,8 +19,7 @@
     else changes. In a system without container apps the runbook therefore restarts nothing, and its last line says
     so.
 #>
-[CmdletBinding()]
-param()
+# No param block: octopus/runbooks.tf joins express-secrets.ps1 before this file, and a param block must come first.
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
