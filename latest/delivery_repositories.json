@@ -23,23 +23,24 @@
       "deliveredStage": "Merged",
       "stagesResolved": true,
       "harvested": true,
-      "workItems": 80,
+      "workItems": 111,
       "automationItems": 0,
-      "issues": 1,
-      "pullRequests": 22,
+      "issues": 6,
+      "pullRequests": 28,
       "releases": 0,
       "deployments": 0,
       "branches": {
-        "listed": 19,
+        "listed": 21,
         "branchItems": [],
         "branchesOfIssues": [],
         "branchesWithoutWorkItem": [
           "deployments",
+          "scorecard-data",
           "status"
         ]
       },
       "directCommits": {
-        "read": 79,
+        "read": 103,
         "items": [
           {
             "sha": "e66dc6aaa5b79e1bfec278b328a1a68497fd331b",
@@ -439,9 +440,149 @@
             "title": "Pin ui 2.4.24 in prod (Deployments-56905)",
             "committedAt": "2026-10-18T12:27:05+00:00",
             "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/ec9936896e46502217f7fd4560e5990ccb1594f6"
+          },
+          {
+            "sha": "ca0021a6144dfbf431d76951f2e12f3e3795434b",
+            "shortSha": "ca0021a",
+            "title": "Pin dashboard 1.0.6 in tdd (Deployments-56914)",
+            "committedAt": "2026-10-18T16:37:07+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/ca0021a6144dfbf431d76951f2e12f3e3795434b"
+          },
+          {
+            "sha": "c27ead469300d94575a13fc1dc82ef571f0b404a",
+            "shortSha": "c27ead4",
+            "title": "Pin dashboard 1.0.6 in uat (Deployments-56916)",
+            "committedAt": "2026-10-18T16:46:18+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/c27ead469300d94575a13fc1dc82ef571f0b404a"
+          },
+          {
+            "sha": "557e1266cd808abaaa7e7e6b8206df2a532cc744",
+            "shortSha": "557e126",
+            "title": "Pin dashboard 1.0.6 in prod (Deployments-56918)",
+            "committedAt": "2026-10-18T16:52:31+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/557e1266cd808abaaa7e7e6b8206df2a532cc744"
+          },
+          {
+            "sha": "3200097a5f272d144105c19dcea61bf88b51cd6c",
+            "shortSha": "3200097",
+            "title": "Pin ui 2.4.6 in tdd (Deployments-56932)",
+            "committedAt": "2026-10-18T19:53:11+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/3200097a5f272d144105c19dcea61bf88b51cd6c"
+          },
+          {
+            "sha": "710644c91a7ca80870e3aaa55651e0f9c7ccff5a",
+            "shortSha": "710644c",
+            "title": "Record the database schema of tdd after ui 2.4.6 (Deployments-56932)",
+            "committedAt": "2026-10-18T19:55:53+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/710644c91a7ca80870e3aaa55651e0f9c7ccff5a"
+          },
+          {
+            "sha": "61390e0b17d1f4adb0ee1c7a4e0cc6f0771fe778",
+            "shortSha": "61390e0",
+            "title": "Pin ui 2.4.24 in tdd (Deployments-56934)",
+            "committedAt": "2026-10-18T20:26:42+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/61390e0b17d1f4adb0ee1c7a4e0cc6f0771fe778"
+          },
+          {
+            "sha": "344d24f28ec76d730be40c2cbe3aa7841be6fee7",
+            "shortSha": "344d24f",
+            "title": "Record the database schema of tdd after ui 2.4.24 (Deployments-56934)",
+            "committedAt": "2026-10-18T20:28:56+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/344d24f28ec76d730be40c2cbe3aa7841be6fee7"
+          },
+          {
+            "sha": "fc402b4fdeeb1a66c701b5ef26d8d83d24922fef",
+            "shortSha": "fc402b4",
+            "title": "Pin ui 2.4.6 in tdd (Deployments-56935)",
+            "committedAt": "2026-10-18T20:59:42+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/fc402b4fdeeb1a66c701b5ef26d8d83d24922fef"
+          },
+          {
+            "sha": "656ce0d022c84b131ba871a8e871ac1be93678df",
+            "shortSha": "656ce0d",
+            "title": "Record the database schema of tdd after ui 2.4.6 (Deployments-56935)",
+            "committedAt": "2026-10-18T21:02:06+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/656ce0d022c84b131ba871a8e871ac1be93678df"
+          },
+          {
+            "sha": "b55d8c9ebf88c7b4db6756f9e147f5d318d3ca6c",
+            "shortSha": "b55d8c9",
+            "title": "Pin ui 2.4.24 in tdd (Deployments-56939)",
+            "committedAt": "2026-10-18T21:38:39+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/b55d8c9ebf88c7b4db6756f9e147f5d318d3ca6c"
+          },
+          {
+            "sha": "bbe694f3468e46fbb4e2efb30300489c1fc213a9",
+            "shortSha": "bbe694f",
+            "title": "Record the database schema of tdd after ui 2.4.24 (Deployments-56939)",
+            "committedAt": "2026-10-18T21:41:16+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/bbe694f3468e46fbb4e2efb30300489c1fc213a9"
+          },
+          {
+            "sha": "2fecc3b9a1a1bd14d06164178a2eefeba5d9d058",
+            "shortSha": "2fecc3b",
+            "title": "Record the database schema of tdd after ui 2.4.24 (Deployments-56943)",
+            "committedAt": "2026-10-18T22:14:25+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/2fecc3b9a1a1bd14d06164178a2eefeba5d9d058"
+          },
+          {
+            "sha": "74e66ab8ed0619f488246a1065c49b74368f4244",
+            "shortSha": "74e66ab",
+            "title": "Pin ui 2.4.26 in tdd (Deployments-56944)",
+            "committedAt": "2026-10-18T22:50:00+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/74e66ab8ed0619f488246a1065c49b74368f4244"
+          },
+          {
+            "sha": "15222a085743e64a664d0a967dad76ddf0dbeb2d",
+            "shortSha": "15222a0",
+            "title": "Record the database schema of tdd after ui 2.4.26 (Deployments-56944)",
+            "committedAt": "2026-10-18T22:52:16+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/15222a085743e64a664d0a967dad76ddf0dbeb2d"
+          },
+          {
+            "sha": "52293eb591a95e1f87c2a3290eff991c8fb54f91",
+            "shortSha": "52293eb",
+            "title": "Pin ui 2.4.26 in uat (Deployments-56946)",
+            "committedAt": "2026-10-18T23:22:10+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/52293eb591a95e1f87c2a3290eff991c8fb54f91"
+          },
+          {
+            "sha": "1b513397f483cbb9783aea8647b1eacb20a625d1",
+            "shortSha": "1b51339",
+            "title": "Pin ui 2.4.24 in tdd (Deployments-56947)",
+            "committedAt": "2026-10-18T23:23:19+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/1b513397f483cbb9783aea8647b1eacb20a625d1"
+          },
+          {
+            "sha": "50807e44dc5f3273500c1f1276640f70cf7344af",
+            "shortSha": "50807e4",
+            "title": "Record the database schema of tdd after ui 2.4.24 (Deployments-56947)",
+            "committedAt": "2026-10-18T23:26:06+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/50807e44dc5f3273500c1f1276640f70cf7344af"
+          },
+          {
+            "sha": "eb44e62cca534ef8bd6688ff46ce16aa88f02875",
+            "shortSha": "eb44e62",
+            "title": "Pin ui 2.4.26 in prod (Deployments-56948)",
+            "committedAt": "2026-10-18T23:32:53+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/eb44e62cca534ef8bd6688ff46ce16aa88f02875"
+          },
+          {
+            "sha": "ca420d145cadcac3bc3f8976932e0aa6588ac369",
+            "shortSha": "ca420d1",
+            "title": "Pin ui 2.4.26 in tdd (Deployments-56949)",
+            "committedAt": "2026-10-18T23:56:38+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/ca420d145cadcac3bc3f8976932e0aa6588ac369"
+          },
+          {
+            "sha": "609aae67b9deb1c028eaca090d6485f49756520e",
+            "shortSha": "609aae6",
+            "title": "Record the database schema of tdd after ui 2.4.26 (Deployments-56949)",
+            "committedAt": "2026-10-18T23:59:00+00:00",
+            "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-system/commit/609aae67b9deb1c028eaca090d6485f49756520e"
           }
         ],
-        "onPullRequests": 22,
+        "onPullRequests": 26,
         "inBranches": 0,
         "automationCommits": 0,
         "automation": []
@@ -462,10 +603,10 @@
       "deliveredStage": "Merged",
       "stagesResolved": true,
       "harvested": true,
-      "workItems": 10,
+      "workItems": 11,
       "automationItems": 0,
       "issues": 0,
-      "pullRequests": 9,
+      "pullRequests": 10,
       "releases": 0,
       "deployments": 0,
       "branches": {
@@ -477,7 +618,7 @@
         ]
       },
       "directCommits": {
-        "read": 11,
+        "read": 12,
         "items": [
           {
             "sha": "7d0e407a321d23f126b5b644306150a8ff448961",
@@ -487,7 +628,7 @@
             "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-workorders/commit/7d0e407a321d23f126b5b644306150a8ff448961"
           }
         ],
-        "onPullRequests": 10,
+        "onPullRequests": 11,
         "inBranches": 0,
         "automationCommits": 0,
         "automation": []
@@ -561,13 +702,13 @@
       "releases": 0,
       "deployments": 0,
       "branches": {
-        "listed": 2,
+        "listed": 1,
         "branchItems": [],
         "branchesOfIssues": [],
         "branchesWithoutWorkItem": []
       },
       "directCommits": {
-        "read": 1,
+        "read": 2,
         "items": [
           {
             "sha": "f25702979ac7759aa3cf736ae68cba025c3667f1",
@@ -577,7 +718,7 @@
             "url": "https://github.com/clearmeasure-aisf-sample-apps/demo-agentic-system1-dashboard/commit/f25702979ac7759aa3cf736ae68cba025c3667f1"
           }
         ],
-        "onPullRequests": 0,
+        "onPullRequests": 1,
         "inBranches": 0,
         "automationCommits": 0,
         "automation": []

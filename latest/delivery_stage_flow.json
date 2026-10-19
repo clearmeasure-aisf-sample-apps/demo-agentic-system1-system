@@ -23,8 +23,8 @@
         "fworker",
         "dashboard"
       ],
-      "windowSince": "2026-10-04T16:28:26.8287834+00:00",
-      "windowUntil": "2026-10-18T16:28:26.8287834+00:00",
+      "windowSince": "2026-10-05T06:55:58.7142186+00:00",
+      "windowUntil": "2026-10-19T06:55:58.7142186+00:00",
       "stages": [
         {
           "stage": "Created",
@@ -32,14 +32,14 @@
           "items": [
             {
               "repository": "system",
-              "number": 4
+              "number": 34
             }
           ],
           "medianHoursInStage": null,
           "averageHoursInStage": null,
           "staysInWindow": 0,
-          "skippedInWindow": 92,
-          "oldestCurrentItemHours": 33.06,
+          "skippedInWindow": 119,
+          "oldestCurrentItemHours": 5.71,
           "state": "normal"
         },
         {
@@ -48,30 +48,25 @@
           "items": [],
           "medianHoursInStage": 0,
           "averageHoursInStage": 0,
-          "staysInWindow": 32,
-          "skippedInWindow": 60,
+          "staysInWindow": 39,
+          "skippedInWindow": 80,
           "oldestCurrentItemHours": null,
           "state": "normal"
         },
         {
           "stage": "In Review",
-          "itemsNow": 1,
-          "items": [
-            {
-              "repository": "dashboard",
-              "number": 1
-            }
-          ],
-          "medianHoursInStage": 0.02,
-          "averageHoursInStage": 0.11,
-          "staysInWindow": 31,
-          "skippedInWindow": 60,
-          "oldestCurrentItemHours": 0.03,
+          "itemsNow": 0,
+          "items": [],
+          "medianHoursInStage": 0.03,
+          "averageHoursInStage": 0.12,
+          "staysInWindow": 37,
+          "skippedInWindow": 80,
+          "oldestCurrentItemHours": null,
           "state": "normal"
         },
         {
           "stage": "Merged",
-          "itemsNow": 91,
+          "itemsNow": 117,
           "items": [
             {
               "repository": "system",
@@ -436,13 +431,117 @@
             {
               "repository": "system",
               "number": 23
+            },
+            {
+              "repository": "dashboard",
+              "number": 1
+            },
+            {
+              "repository": "system",
+              "number": 966467
+            },
+            {
+              "repository": "system",
+              "number": 925162
+            },
+            {
+              "repository": "system",
+              "number": 977889
+            },
+            {
+              "repository": "system",
+              "number": 26
+            },
+            {
+              "repository": "system",
+              "number": 25
+            },
+            {
+              "repository": "system",
+              "number": 32
+            },
+            {
+              "repository": "system",
+              "number": 977531
+            },
+            {
+              "repository": "system",
+              "number": 938130
+            },
+            {
+              "repository": "system",
+              "number": 33
+            },
+            {
+              "repository": "system",
+              "number": 990338
+            },
+            {
+              "repository": "system",
+              "number": 967172
+            },
+            {
+              "repository": "system",
+              "number": 963672
+            },
+            {
+              "repository": "system",
+              "number": 958348
+            },
+            {
+              "repository": "system",
+              "number": 934537
+            },
+            {
+              "repository": "system",
+              "number": 997047
+            },
+            {
+              "repository": "system",
+              "number": 947400
+            },
+            {
+              "repository": "ui",
+              "number": 10
+            },
+            {
+              "repository": "system",
+              "number": 940396
+            },
+            {
+              "repository": "system",
+              "number": 935065
+            },
+            {
+              "repository": "system",
+              "number": 935488
+            },
+            {
+              "repository": "system",
+              "number": 900394
+            },
+            {
+              "repository": "system",
+              "number": 936963
+            },
+            {
+              "repository": "system",
+              "number": 903114
+            },
+            {
+              "repository": "system",
+              "number": 914597
+            },
+            {
+              "repository": "system",
+              "number": 963395
             }
           ],
           "medianHoursInStage": null,
           "averageHoursInStage": null,
           "staysInWindow": 0,
           "skippedInWindow": 0,
-          "oldestCurrentItemHours": 33.92,
+          "oldestCurrentItemHours": 48.38,
           "state": "normal"
         }
       ],
@@ -452,10 +551,118 @@
           "to": "Development",
           "medianHours": null,
           "averageHours": null,
-          "items": 92,
+          "items": 119,
           "timedItems": 0,
-          "skippedItems": 92,
+          "skippedItems": 119,
           "itemList": [
+            {
+              "repository": "system",
+              "number": 963395
+            },
+            {
+              "repository": "system",
+              "number": 914597
+            },
+            {
+              "repository": "system",
+              "number": 903114
+            },
+            {
+              "repository": "system",
+              "number": 936963
+            },
+            {
+              "repository": "system",
+              "number": 900394
+            },
+            {
+              "repository": "system",
+              "number": 935488
+            },
+            {
+              "repository": "system",
+              "number": 935065
+            },
+            {
+              "repository": "system",
+              "number": 940396
+            },
+            {
+              "repository": "ui",
+              "number": 10
+            },
+            {
+              "repository": "system",
+              "number": 947400
+            },
+            {
+              "repository": "system",
+              "number": 997047
+            },
+            {
+              "repository": "system",
+              "number": 934537
+            },
+            {
+              "repository": "system",
+              "number": 958348
+            },
+            {
+              "repository": "system",
+              "number": 963672
+            },
+            {
+              "repository": "system",
+              "number": 967172
+            },
+            {
+              "repository": "system",
+              "number": 990338
+            },
+            {
+              "repository": "system",
+              "number": 938130
+            },
+            {
+              "repository": "system",
+              "number": 977531
+            },
+            {
+              "repository": "system",
+              "number": 33
+            },
+            {
+              "repository": "system",
+              "number": 32
+            },
+            {
+              "repository": "system",
+              "number": 27
+            },
+            {
+              "repository": "system",
+              "number": 26
+            },
+            {
+              "repository": "system",
+              "number": 25
+            },
+            {
+              "repository": "system",
+              "number": 24
+            },
+            {
+              "repository": "system",
+              "number": 977889
+            },
+            {
+              "repository": "system",
+              "number": 925162
+            },
+            {
+              "repository": "system",
+              "number": 966467
+            },
             {
               "repository": "dashboard",
               "number": 1
@@ -831,10 +1038,118 @@
           "to": "In Review",
           "medianHours": 0,
           "averageHours": 0,
-          "items": 92,
-          "timedItems": 32,
-          "skippedItems": 60,
+          "items": 119,
+          "timedItems": 39,
+          "skippedItems": 80,
           "itemList": [
+            {
+              "repository": "system",
+              "number": 963395
+            },
+            {
+              "repository": "system",
+              "number": 914597
+            },
+            {
+              "repository": "system",
+              "number": 903114
+            },
+            {
+              "repository": "system",
+              "number": 936963
+            },
+            {
+              "repository": "system",
+              "number": 900394
+            },
+            {
+              "repository": "system",
+              "number": 935488
+            },
+            {
+              "repository": "system",
+              "number": 935065
+            },
+            {
+              "repository": "system",
+              "number": 940396
+            },
+            {
+              "repository": "ui",
+              "number": 10
+            },
+            {
+              "repository": "system",
+              "number": 947400
+            },
+            {
+              "repository": "system",
+              "number": 997047
+            },
+            {
+              "repository": "system",
+              "number": 934537
+            },
+            {
+              "repository": "system",
+              "number": 958348
+            },
+            {
+              "repository": "system",
+              "number": 963672
+            },
+            {
+              "repository": "system",
+              "number": 967172
+            },
+            {
+              "repository": "system",
+              "number": 990338
+            },
+            {
+              "repository": "system",
+              "number": 938130
+            },
+            {
+              "repository": "system",
+              "number": 977531
+            },
+            {
+              "repository": "system",
+              "number": 33
+            },
+            {
+              "repository": "system",
+              "number": 32
+            },
+            {
+              "repository": "system",
+              "number": 27
+            },
+            {
+              "repository": "system",
+              "number": 26
+            },
+            {
+              "repository": "system",
+              "number": 25
+            },
+            {
+              "repository": "system",
+              "number": 24
+            },
+            {
+              "repository": "system",
+              "number": 977889
+            },
+            {
+              "repository": "system",
+              "number": 925162
+            },
+            {
+              "repository": "system",
+              "number": 966467
+            },
             {
               "repository": "dashboard",
               "number": 1
@@ -1208,12 +1523,116 @@
         {
           "from": "In Review",
           "to": "Merged",
-          "medianHours": 0.02,
-          "averageHours": 0.11,
-          "items": 91,
-          "timedItems": 31,
-          "skippedItems": 60,
+          "medianHours": 0.03,
+          "averageHours": 0.12,
+          "items": 117,
+          "timedItems": 37,
+          "skippedItems": 80,
           "itemList": [
+            {
+              "repository": "system",
+              "number": 963395
+            },
+            {
+              "repository": "system",
+              "number": 914597
+            },
+            {
+              "repository": "system",
+              "number": 903114
+            },
+            {
+              "repository": "system",
+              "number": 936963
+            },
+            {
+              "repository": "system",
+              "number": 900394
+            },
+            {
+              "repository": "system",
+              "number": 935488
+            },
+            {
+              "repository": "system",
+              "number": 935065
+            },
+            {
+              "repository": "system",
+              "number": 940396
+            },
+            {
+              "repository": "ui",
+              "number": 10
+            },
+            {
+              "repository": "system",
+              "number": 947400
+            },
+            {
+              "repository": "system",
+              "number": 997047
+            },
+            {
+              "repository": "system",
+              "number": 934537
+            },
+            {
+              "repository": "system",
+              "number": 958348
+            },
+            {
+              "repository": "system",
+              "number": 963672
+            },
+            {
+              "repository": "system",
+              "number": 967172
+            },
+            {
+              "repository": "system",
+              "number": 990338
+            },
+            {
+              "repository": "system",
+              "number": 33
+            },
+            {
+              "repository": "system",
+              "number": 938130
+            },
+            {
+              "repository": "system",
+              "number": 977531
+            },
+            {
+              "repository": "system",
+              "number": 32
+            },
+            {
+              "repository": "system",
+              "number": 25
+            },
+            {
+              "repository": "system",
+              "number": 26
+            },
+            {
+              "repository": "system",
+              "number": 977889
+            },
+            {
+              "repository": "system",
+              "number": 925162
+            },
+            {
+              "repository": "system",
+              "number": 966467
+            },
+            {
+              "repository": "dashboard",
+              "number": 1
+            },
             {
               "repository": "system",
               "number": 23

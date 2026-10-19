@@ -1,0 +1,44 @@
+{
+  "harvested": true,
+  "scope": {
+    "repository": null,
+    "wholeSystem": true,
+    "repositories": [
+      "system",
+      "ui",
+      "fworker",
+      "dashboard"
+    ]
+  },
+  "items": "all",
+  "automationItemsLeftOut": 0,
+  "scorecardId": "delivery",
+  "metricSet": "All items",
+  "error": null,
+  "weeks": [
+    {
+      "periodLabel": "W43 2026-10-19",
+      "weekStart": "2026-10-19T00:00:00+00:00",
+      "itemsDelivered": 0,
+      "throughput": 0,
+      "rework": 0,
+      "netThroughput": 0,
+      "itemsStarted": 1,
+      "workInProcess": 1,
+      "meanTimeToDeliveryHours": null,
+      "closedNotDelivered": 5
+    },
+    {
+      "periodLabel": "W42 2026-10-12",
+      "weekStart": "2026-10-12T00:00:00+00:00",
+      "itemsDelivered": 117,
+      "throughput": 355,
+      "rework": 0,
+      "netThroughput": 355,
+      "itemsStarted": 124,
+      "workInProcess": 6,
+      "meanTimeToDeliveryHours": 0.04,
+      "closedNotDelivered": 0
+    }
+  ]
+}

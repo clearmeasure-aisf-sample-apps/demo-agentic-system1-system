@@ -1,0 +1,82 @@
+{
+  "system": "demo-agentic-system1-system",
+  "isoWeek": "2026-W43",
+  "generatedUtc": "2026-10-19T06:55:58Z",
+  "harvestSince": "2026-07-27",
+  "repositories": [
+    {
+      "id": "system",
+      "repository": "clearmeasure-aisf-sample-apps/demo-agentic-system1-system",
+      "workItems": 111,
+      "issues": 6,
+      "pullRequests": 28,
+      "deployments": 0,
+      "deliveredStage": "Merged"
+    },
+    {
+      "id": "ui",
+      "repository": "clearmeasure-aisf-sample-apps/demo-agentic-system1-workorders",
+      "workItems": 11,
+      "issues": 0,
+      "pullRequests": 10,
+      "deployments": 0,
+      "deliveredStage": "Merged"
+    },
+    {
+      "id": "fworker",
+      "repository": "clearmeasure-aisf-sample-apps/demo-agentic-system1-fworker",
+      "workItems": 1,
+      "issues": 0,
+      "pullRequests": 0,
+      "deployments": 0,
+      "deliveredStage": "Merged"
+    },
+    {
+      "id": "dashboard",
+      "repository": "clearmeasure-aisf-sample-apps/demo-agentic-system1-dashboard",
+      "workItems": 2,
+      "issues": 0,
+      "pullRequests": 1,
+      "deployments": 0,
+      "deliveredStage": "Merged"
+    }
+  ],
+  "latestWeek": {
+    "periodLabel": "W42 2026-10-12",
+    "weekStart": "2026-10-12T00:00:00+00:00",
+    "itemsDelivered": 117,
+    "throughput": 355,
+    "rework": 0,
+    "netThroughput": 355,
+    "itemsStarted": 124,
+    "workInProcess": 6,
+    "meanTimeToDeliveryHours": 0.04,
+    "closedNotDelivered": 0
+  },
+  "weeks": [
+    {
+      "periodLabel": "W43 2026-10-19",
+      "weekStart": "2026-10-19T00:00:00+00:00",
+      "itemsDelivered": 0,
+      "throughput": 0,
+      "rework": 0,
+      "netThroughput": 0,
+      "itemsStarted": 1,
+      "workInProcess": 1,
+      "meanTimeToDeliveryHours": null,
+      "closedNotDelivered": 5
+    },
+    {
+      "periodLabel": "W42 2026-10-12",
+      "weekStart": "2026-10-12T00:00:00+00:00",
+      "itemsDelivered": 117,
+      "throughput": 355,
+      "rework": 0,
+      "netThroughput": 355,
+      "itemsStarted": 124,
+      "workInProcess": 6,
+      "meanTimeToDeliveryHours": 0.04,
+      "closedNotDelivered": 0
+    }
+  ]
+}

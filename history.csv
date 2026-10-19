@@ -1,2 +1,4 @@
 isoWeek,week,weekStart,itemsDelivered,throughput,rework,netThroughput,itemsStarted,workInProcess,meanTimeToDeliveryHours,closedNotDelivered
 "2026-W42","W42 2026-10-12","2026-10-12T00:00:00+00:00",91,275,0,275,93,2,0.04,0
+"2026-W43","W43 2026-10-19","2026-10-19T00:00:00+00:00",0,0,0,0,1,1,,5
+"2026-W43","W42 2026-10-12","2026-10-12T00:00:00+00:00",117,355,0,355,124,6,0.04,0

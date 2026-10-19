@@ -20,19 +20,19 @@
           "stage": "Created",
           "averageHours": null,
           "stays": 0,
-          "skipped": 92
+          "skipped": 119
         },
         {
           "stage": "Development",
           "averageHours": 0,
-          "stays": 32,
-          "skipped": 60
+          "stays": 39,
+          "skipped": 80
         },
         {
           "stage": "In Review",
-          "averageHours": 0.11,
-          "stays": 31,
-          "skipped": 60
+          "averageHours": 0.12,
+          "stays": 37,
+          "skipped": 80
         },
         {
           "stage": "Merged",

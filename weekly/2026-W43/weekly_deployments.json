@@ -1,0 +1,16 @@
+{
+  "harvested": true,
+  "scope": {
+    "repository": null,
+    "wholeSystem": true,
+    "repositories": [
+      "system",
+      "ui",
+      "fworker",
+      "dashboard"
+    ]
+  },
+  "totalDeployments": 0,
+  "totalFailed": 0,
+  "weeks": []
+}

@@ -17,14 +17,26 @@
   "error": null,
   "weeks": [
     {
+      "periodLabel": "W43 2026-10-19",
+      "weekStart": "2026-10-19T00:00:00+00:00",
+      "itemsDelivered": 0,
+      "throughput": 0,
+      "rework": 0,
+      "netThroughput": 0,
+      "itemsStarted": 1,
+      "workInProcess": 1,
+      "meanTimeToDeliveryHours": null,
+      "closedNotDelivered": 5
+    },
+    {
       "periodLabel": "W42 2026-10-12",
       "weekStart": "2026-10-12T00:00:00+00:00",
-      "itemsDelivered": 91,
-      "throughput": 275,
+      "itemsDelivered": 117,
+      "throughput": 355,
       "rework": 0,
-      "netThroughput": 275,
-      "itemsStarted": 93,
-      "workInProcess": 2,
+      "netThroughput": 355,
+      "itemsStarted": 124,
+      "workInProcess": 6,
       "meanTimeToDeliveryHours": 0.04,
       "closedNotDelivered": 0
     }
