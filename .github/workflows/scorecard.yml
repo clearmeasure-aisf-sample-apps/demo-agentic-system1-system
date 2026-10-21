@@ -1,11 +1,13 @@
 # The system's weekly delivery scorecard, as a GitHub Action (decision 0062): no Azure resource. Every Monday (and
-# on demand) it installs the cmis CLI (a pinned release of Clear Measure Intelligence Scorecard, checksum verified),
+# on demand) it builds the delivery scorecard (Scorecard.Web of the scorecard source, a pinned commit) on the runner,
 # harvests the system's repositories (the system repository and every deployable of system.json, or the list in
-# .github/scorecard/connections.json) as GitHubDelivery connections, scores them by ISO week, and commits the numbers
-# (JSON, CSV and a markdown summary, by ISO week) to the branch scorecard-data of this repository with the run's own
-# token. The dashboards read latest/summary.json of that branch. The delivered stage is Merged.
-# Secrets: SCORECARD_SOURCE_TOKEN downloads the cmis release, else the stored token OCTOPUS_GITHUB_TOKEN. The harvest
+# .github/scorecard/connections.json), reads the numbers through the scorecard's read-only MCP endpoint, and commits
+# them (JSON, CSV and a markdown summary, by ISO week) to the branch scorecard-data of this repository with the run's
+# own token. The dashboards read latest/summary.json of that branch.
+# Secrets: SCORECARD_SOURCE_TOKEN reads the scorecard source, else the stored token OCTOPUS_GITHUB_TOKEN. The harvest
 # reads the system's repositories with SCORECARD_HARVEST_TOKEN, else OCTOPUS_GITHUB_TOKEN, else the run's own token.
+# SCORECARD_OCTOPUS_KEY (a read-only Octopus key) pairs each repository with its Octopus project; without it the
+# delivered stage is Merged.
 name: Weekly scorecard
 
 on:
@@ -25,9 +27,8 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  CMIS_REPO: ClearMeasure/Clear-Measure-Intelligence-Scorecard
-  CMIS_TAG: v1.0.3713-delivery.3
-  CMIS_SHA256: bea6bc4b011bbc3e0c4307821b832671bb3befbf30c8f6da0643dddfa29f9960
+  SCORECARD_SOURCE_REPO: clearmeasure-aisf-sample-apps/cmdemo1-scorecard
+  SCORECARD_SOURCE_REF: 95f8c8c0de1df262896e326c81c5b9937a7cdd26
   DATA_BRANCH: scorecard-data
 
 jobs:
@@ -39,15 +40,19 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: system
-      - name: Install cmis (pinned release)
-        env:
-          GH_TOKEN: ${{ secrets.SCORECARD_SOURCE_TOKEN || secrets.OCTOPUS_GITHUB_TOKEN }}
-        run: |
-          v="${CMIS_TAG#v}"; f="cmis-$v-linux-x64.tar.gz"
-          gh release download "$CMIS_TAG" -R "$CMIS_REPO" -p "$f" -D "$RUNNER_TEMP"
-          echo "$CMIS_SHA256  $RUNNER_TEMP/$f" | sha256sum -c -
-          mkdir -p "$RUNNER_TEMP/cmis" && tar xzf "$RUNNER_TEMP/$f" -C "$RUNNER_TEMP/cmis"
-          "$RUNNER_TEMP/cmis/cmis" --version
+      - name: Check out the scorecard source
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SCORECARD_SOURCE_REPO }}
+          ref: ${{ env.SCORECARD_SOURCE_REF }}
+          token: ${{ secrets.SCORECARD_SOURCE_TOKEN || secrets.OCTOPUS_GITHUB_TOKEN }}
+          path: scorecard-src
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Build the scorecard
+        run: dotnet publish scorecard-src/Scorecard.Web -c Release -o "$RUNNER_TEMP/scorecard-web" -p:NuGetAudit=false --nologo -v q
       - name: Check out the data branch
         working-directory: system
         run: |
@@ -68,10 +73,11 @@ jobs:
           fi
       - name: Harvest and score
         env:
-          CMIS: ${{ runner.temp }}/cmis/cmis
+          SCORECARD_DLL: ${{ runner.temp }}/scorecard-web/Scorecard.Web.dll
           OUT_DIR: ${{ runner.temp }}/data
           CONNECTIONS_FILE: system/.github/scorecard/connections.json
           HARVEST_TOKEN: ${{ secrets.SCORECARD_HARVEST_TOKEN || secrets.OCTOPUS_GITHUB_TOKEN || github.token }}
+          OCTOPUS_KEY: ${{ secrets.SCORECARD_OCTOPUS_KEY }}
           SINCE_DAYS: ${{ inputs.since_days || '84' }}
           SYSTEM_JSON: system/system.json
           SYSTEM_NAME: ${{ github.event.repository.name }}
