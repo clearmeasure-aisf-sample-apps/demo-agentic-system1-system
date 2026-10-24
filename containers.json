@@ -1,0 +1,668 @@
+{
+  "generated": "2026-10-24T21:42:52Z",
+  "environments": {
+    "tdd": {
+      "ui": "https://ca-agentic1-tdd-ui.kindmushroom-29e23036.eastus2.azurecontainerapps.io",
+      "fworker": "https://ca-agentic1-tdd-fworker.kindmushroom-29e23036.eastus2.azurecontainerapps.io"
+    },
+    "uat": {
+      "ui": "https://ca-agentic1-uat-ui.kindmushroom-29e23036.eastus2.azurecontainerapps.io",
+      "fworker": "https://ca-agentic1-uat-fworker.kindmushroom-29e23036.eastus2.azurecontainerapps.io"
+    },
+    "prod": {
+      "ui": "https://ca-agentic1-prod-ui.kindmushroom-29e23036.eastus2.azurecontainerapps.io",
+      "fworker": "https://ca-agentic1-prod-fworker.kindmushroom-29e23036.eastus2.azurecontainerapps.io"
+    }
+  },
+  "resources": {
+    "apps": [
+      {
+        "type": "Microsoft.App/managedEnvironments",
+        "name": "cae-agentic1",
+        "environment": "",
+        "environments": [],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-apps/providers/Microsoft.App/managedEnvironments/cae-agentic1",
+        "group": "rg-agentic1-apps",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:38Z"
+        }
+      }
+    ],
+    "nonprod": [
+      {
+        "type": "Microsoft.App/containerApps",
+        "name": "ca-agentic1-tdd-fworker",
+        "environment": "tdd",
+        "environments": [
+          "tdd"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.App/containerApps/ca-agentic1-tdd-fworker",
+        "group": "rg-agentic1-nonprod",
+        "address": "https://ca-agentic1-tdd-fworker.kindmushroom-29e23036.eastus2.azurecontainerapps.io",
+        "managedEnvironment": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-apps/providers/Microsoft.App/managedEnvironments/cae-agentic1",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.App/containerApps",
+        "name": "ca-agentic1-tdd-ui",
+        "environment": "tdd",
+        "environments": [
+          "tdd"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.App/containerApps/ca-agentic1-tdd-ui",
+        "group": "rg-agentic1-nonprod",
+        "address": "https://ca-agentic1-tdd-ui.kindmushroom-29e23036.eastus2.azurecontainerapps.io",
+        "managedEnvironment": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-apps/providers/Microsoft.App/managedEnvironments/cae-agentic1",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.App/containerApps",
+        "name": "ca-agentic1-uat-fworker",
+        "environment": "uat",
+        "environments": [
+          "uat"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.App/containerApps/ca-agentic1-uat-fworker",
+        "group": "rg-agentic1-nonprod",
+        "address": "https://ca-agentic1-uat-fworker.kindmushroom-29e23036.eastus2.azurecontainerapps.io",
+        "managedEnvironment": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-apps/providers/Microsoft.App/managedEnvironments/cae-agentic1",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.App/containerApps",
+        "name": "ca-agentic1-uat-ui",
+        "environment": "uat",
+        "environments": [
+          "uat"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.App/containerApps/ca-agentic1-uat-ui",
+        "group": "rg-agentic1-nonprod",
+        "address": "https://ca-agentic1-uat-ui.kindmushroom-29e23036.eastus2.azurecontainerapps.io",
+        "managedEnvironment": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-apps/providers/Microsoft.App/managedEnvironments/cae-agentic1",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.ContainerRegistry/registries",
+        "name": "acragentic125tqid",
+        "environment": "tdd,uat,prod",
+        "environments": [
+          "tdd",
+          "uat",
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.ContainerRegistry/registries/acragentic125tqid",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.KeyVault/vaults",
+        "name": "kvagentic1tddt2rnn",
+        "environment": "tdd",
+        "environments": [
+          "tdd"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.KeyVault/vaults/kvagentic1tddt2rnn",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "available",
+          "source": "resourceHealth",
+          "checkedAt": "2026-10-24T21:42:46Z",
+          "summary": "There aren't any known Azure platform problems affecting this key vault."
+        }
+      },
+      {
+        "type": "Microsoft.KeyVault/vaults",
+        "name": "kvagentic1uatsdiw6",
+        "environment": "uat",
+        "environments": [
+          "uat"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.KeyVault/vaults/kvagentic1uatsdiw6",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "available",
+          "source": "resourceHealth",
+          "checkedAt": "2026-10-24T21:42:46Z",
+          "summary": "There aren't any known Azure platform problems affecting this key vault."
+        }
+      },
+      {
+        "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "name": "id-agentic1-acr-push",
+        "environment": "tdd,uat,prod",
+        "environments": [
+          "tdd",
+          "uat",
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-acr-push",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "name": "id-agentic1-deploy-nonprod",
+        "environment": "tdd,uat",
+        "environments": [
+          "tdd",
+          "uat"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-deploy-nonprod",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "name": "id-agentic1-octopus-config",
+        "environment": "tdd,uat,prod",
+        "environments": [
+          "tdd",
+          "uat",
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-octopus-config",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "name": "id-agentic1-plan",
+        "environment": "tdd,uat,prod",
+        "environments": [
+          "tdd",
+          "uat",
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-plan",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "name": "id-agentic1-tdd-app",
+        "environment": "tdd",
+        "environments": [
+          "tdd"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-tdd-app",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "name": "id-agentic1-tdd-fworker",
+        "environment": "tdd",
+        "environments": [
+          "tdd"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-tdd-fworker",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "name": "id-agentic1-uat-app",
+        "environment": "uat",
+        "environments": [
+          "uat"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-uat-app",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "name": "id-agentic1-uat-fworker",
+        "environment": "uat",
+        "environments": [
+          "uat"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-uat-fworker",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.Sql/servers",
+        "name": "sql-agentic1-tdd-uhcki",
+        "environment": "tdd",
+        "environments": [
+          "tdd"
+        ],
+        "location": "centralus",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.Sql/servers/sql-agentic1-tdd-uhcki",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.Sql/servers",
+        "name": "sql-agentic1-uat-kiiwb",
+        "environment": "uat",
+        "environments": [
+          "uat"
+        ],
+        "location": "centralus",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.Sql/servers/sql-agentic1-uat-kiiwb",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.Sql/servers/databases",
+        "name": "sql-agentic1-tdd-uhcki/master",
+        "environment": "",
+        "environments": [],
+        "location": "centralus",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.Sql/servers/sql-agentic1-tdd-uhcki/databases/master",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.Sql/servers/databases",
+        "name": "sql-agentic1-tdd-uhcki/sqldb-agentic1-tdd",
+        "environment": "tdd",
+        "environments": [
+          "tdd"
+        ],
+        "location": "centralus",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.Sql/servers/sql-agentic1-tdd-uhcki/databases/sqldb-agentic1-tdd",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "available",
+          "source": "resourceHealth",
+          "checkedAt": "2026-10-24T21:42:46Z",
+          "summary": "There aren't any known Azure platform problems affecting this SQL database or SQL data warehouse."
+        }
+      },
+      {
+        "type": "Microsoft.Sql/servers/databases",
+        "name": "sql-agentic1-uat-kiiwb/master",
+        "environment": "",
+        "environments": [],
+        "location": "centralus",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.Sql/servers/sql-agentic1-uat-kiiwb/databases/master",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:46Z"
+        }
+      },
+      {
+        "type": "Microsoft.Sql/servers/databases",
+        "name": "sql-agentic1-uat-kiiwb/sqldb-agentic1-uat",
+        "environment": "uat",
+        "environments": [
+          "uat"
+        ],
+        "location": "centralus",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.Sql/servers/sql-agentic1-uat-kiiwb/databases/sqldb-agentic1-uat",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "available",
+          "source": "resourceHealth",
+          "checkedAt": "2026-10-24T21:42:46Z",
+          "summary": "There aren't any known Azure platform problems affecting this SQL database or SQL data warehouse."
+        }
+      },
+      {
+        "type": "Microsoft.Storage/storageAccounts",
+        "name": "stagentic1tddiz5vfxv4wva",
+        "environment": "tdd",
+        "environments": [
+          "tdd"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.Storage/storageAccounts/stagentic1tddiz5vfxv4wva",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "available",
+          "source": "resourceHealth",
+          "checkedAt": "2026-10-24T21:42:46Z",
+          "summary": "There aren't any known Azure platform problems affecting this storage account."
+        }
+      },
+      {
+        "type": "Microsoft.Storage/storageAccounts",
+        "name": "stagentic1tf25tqid",
+        "environment": "tdd,uat,prod",
+        "environments": [
+          "tdd",
+          "uat",
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.Storage/storageAccounts/stagentic1tf25tqid",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "available",
+          "source": "resourceHealth",
+          "checkedAt": "2026-10-24T21:42:46Z",
+          "summary": "There aren't any known Azure platform problems affecting this storage account."
+        }
+      },
+      {
+        "type": "Microsoft.Storage/storageAccounts",
+        "name": "stagentic1uatpx525wjph45",
+        "environment": "uat",
+        "environments": [
+          "uat"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-nonprod/providers/Microsoft.Storage/storageAccounts/stagentic1uatpx525wjph45",
+        "group": "rg-agentic1-nonprod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "available",
+          "source": "resourceHealth",
+          "checkedAt": "2026-10-24T21:42:46Z",
+          "summary": "There aren't any known Azure platform problems affecting this storage account."
+        }
+      }
+    ],
+    "prod": [
+      {
+        "type": "Microsoft.App/containerApps",
+        "name": "ca-agentic1-prod-fworker",
+        "environment": "prod",
+        "environments": [
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-prod/providers/Microsoft.App/containerApps/ca-agentic1-prod-fworker",
+        "group": "rg-agentic1-prod",
+        "address": "https://ca-agentic1-prod-fworker.kindmushroom-29e23036.eastus2.azurecontainerapps.io",
+        "managedEnvironment": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-apps/providers/Microsoft.App/managedEnvironments/cae-agentic1",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:51Z"
+        }
+      },
+      {
+        "type": "Microsoft.App/containerApps",
+        "name": "ca-agentic1-prod-ui",
+        "environment": "prod",
+        "environments": [
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-prod/providers/Microsoft.App/containerApps/ca-agentic1-prod-ui",
+        "group": "rg-agentic1-prod",
+        "address": "https://ca-agentic1-prod-ui.kindmushroom-29e23036.eastus2.azurecontainerapps.io",
+        "managedEnvironment": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-apps/providers/Microsoft.App/managedEnvironments/cae-agentic1",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:51Z"
+        }
+      },
+      {
+        "type": "Microsoft.KeyVault/vaults",
+        "name": "kvagentic1prod6i6v2",
+        "environment": "prod",
+        "environments": [
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-prod/providers/Microsoft.KeyVault/vaults/kvagentic1prod6i6v2",
+        "group": "rg-agentic1-prod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "available",
+          "source": "resourceHealth",
+          "checkedAt": "2026-10-24T21:42:51Z",
+          "summary": "There aren't any known Azure platform problems affecting this key vault."
+        }
+      },
+      {
+        "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "name": "id-agentic1-deploy-prod",
+        "environment": "prod",
+        "environments": [
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-prod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-deploy-prod",
+        "group": "rg-agentic1-prod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:51Z"
+        }
+      },
+      {
+        "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "name": "id-agentic1-prod-app",
+        "environment": "prod",
+        "environments": [
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-prod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-prod-app",
+        "group": "rg-agentic1-prod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:51Z"
+        }
+      },
+      {
+        "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "name": "id-agentic1-prod-fworker",
+        "environment": "prod",
+        "environments": [
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-prod/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-agentic1-prod-fworker",
+        "group": "rg-agentic1-prod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:51Z"
+        }
+      },
+      {
+        "type": "Microsoft.Sql/servers",
+        "name": "sql-agentic1-prod-v5rts",
+        "environment": "prod",
+        "environments": [
+          "prod"
+        ],
+        "location": "centralus",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-prod/providers/Microsoft.Sql/servers/sql-agentic1-prod-v5rts",
+        "group": "rg-agentic1-prod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:51Z"
+        }
+      },
+      {
+        "type": "Microsoft.Sql/servers/databases",
+        "name": "sql-agentic1-prod-v5rts/master",
+        "environment": "",
+        "environments": [],
+        "location": "centralus",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-prod/providers/Microsoft.Sql/servers/sql-agentic1-prod-v5rts/databases/master",
+        "group": "rg-agentic1-prod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "succeeded",
+          "source": "provisioningState",
+          "checkedAt": "2026-10-24T21:42:51Z"
+        }
+      },
+      {
+        "type": "Microsoft.Sql/servers/databases",
+        "name": "sql-agentic1-prod-v5rts/sqldb-agentic1-prod",
+        "environment": "prod",
+        "environments": [
+          "prod"
+        ],
+        "location": "centralus",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-prod/providers/Microsoft.Sql/servers/sql-agentic1-prod-v5rts/databases/sqldb-agentic1-prod",
+        "group": "rg-agentic1-prod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "available",
+          "source": "resourceHealth",
+          "checkedAt": "2026-10-24T21:42:51Z",
+          "summary": "There aren't any known Azure platform problems affecting this SQL database or SQL data warehouse."
+        }
+      },
+      {
+        "type": "Microsoft.Storage/storageAccounts",
+        "name": "stagentic1prodvfdk3x6zqy",
+        "environment": "prod",
+        "environments": [
+          "prod"
+        ],
+        "location": "eastus2",
+        "id": "/subscriptions/4a4dfa6d-d434-4b9e-8a88-63bbf61cfb69/resourceGroups/rg-agentic1-prod/providers/Microsoft.Storage/storageAccounts/stagentic1prodvfdk3x6zqy",
+        "group": "rg-agentic1-prod",
+        "address": "",
+        "managedEnvironment": "",
+        "health": {
+          "status": "available",
+          "source": "resourceHealth",
+          "checkedAt": "2026-10-24T21:42:51Z",
+          "summary": "There aren't any known Azure platform problems affecting this storage account."
+        }
+      }
+    ]
+  }
+}

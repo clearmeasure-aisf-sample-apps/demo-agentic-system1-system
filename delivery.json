@@ -1,0 +1,366 @@
+{
+  "generated": "2026-10-24T21:42:09Z",
+  "environments": [
+    {
+      "name": "tdd",
+      "deployables": [
+        {
+          "name": "ui",
+          "version": "2.4.26",
+          "deployedAt": "2026-10-19T00:28:15Z",
+          "signedOffBy": null,
+          "reason": null,
+          "lastPersonSignOff": null,
+          "commit": "a6d1ec8bf5a718e7dbdc007197ea461e8a6bb951",
+          "commitAt": "2026-10-18T22:31:25Z",
+          "leadTimeHours": 1.9,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 20,
+          "failedLast7Days": 13,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-ui/deployments/releases/2.4.26"
+        },
+        {
+          "name": "fworker",
+          "version": "1.0.1",
+          "deployedAt": "2026-10-17T16:51:03Z",
+          "signedOffBy": null,
+          "reason": null,
+          "lastPersonSignOff": null,
+          "commit": "60d3776b9fbed8d3444b67e83e73e8087d728ef7",
+          "commitAt": "2026-10-17T06:58:52Z",
+          "leadTimeHours": 9.9,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 0,
+          "failedLast7Days": 0,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-fworker/deployments/releases/1.0.1"
+        },
+        {
+          "name": "dashboard",
+          "version": "1.0.6",
+          "deployedAt": "2026-10-19T00:42:08Z",
+          "signedOffBy": null,
+          "reason": null,
+          "lastPersonSignOff": null,
+          "commit": "5777aae3ff5e66141924e58d83ed7c86b3f82546",
+          "commitAt": "2026-10-18T16:28:45Z",
+          "leadTimeHours": 8.2,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 3,
+          "failedLast7Days": 0,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-dashboard/deployments/releases/1.0.6"
+        },
+        {
+          "name": "system",
+          "version": "1.0.29",
+          "deployedAt": "2026-10-20T20:39:00Z",
+          "signedOffBy": null,
+          "reason": null,
+          "lastPersonSignOff": null,
+          "commit": "3f33376ed55a7739e521dc10596ece354c48d001",
+          "commitAt": "2026-10-20T20:29:00Z",
+          "leadTimeHours": 0.2,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 15,
+          "failedLast7Days": 1,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-system/deployments/releases/1.0.29"
+        }
+      ],
+      "health": {
+        "last24Hours": {
+          "reports": 24,
+          "healthy": 0
+        },
+        "last7Days": {
+          "reports": 101,
+          "healthy": 4
+        },
+        "lastFailure": "2026-10-24T20:58:44Z",
+        "containerApps": [
+          {
+            "name": "ui",
+            "last": {
+              "result": "unhealthy",
+              "at": "2026-10-24T20:58:44Z"
+            },
+            "last24Hours": {
+              "reports": 24,
+              "healthy": 0
+            },
+            "last7Days": {
+              "reports": 101,
+              "healthy": 4
+            }
+          },
+          {
+            "name": "fworker",
+            "last": {
+              "result": "healthy",
+              "at": "2026-10-24T20:58:44Z"
+            },
+            "last24Hours": {
+              "reports": 24,
+              "healthy": 24
+            },
+            "last7Days": {
+              "reports": 101,
+              "healthy": 101
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "uat",
+      "deployables": [
+        {
+          "name": "ui",
+          "version": "2.4.26",
+          "deployedAt": "2026-10-18T23:31:46Z",
+          "signedOffBy": null,
+          "reason": null,
+          "lastPersonSignOff": null,
+          "commit": "a6d1ec8bf5a718e7dbdc007197ea461e8a6bb951",
+          "commitAt": "2026-10-18T22:31:25Z",
+          "leadTimeHours": 1.0,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 3,
+          "failedLast7Days": 0,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-ui/deployments/releases/2.4.26"
+        },
+        {
+          "name": "fworker",
+          "version": "1.0.1",
+          "deployedAt": "2026-10-17T20:11:01Z",
+          "signedOffBy": "ai-ops",
+          "reason": "Standing approval from the architect for the teaching demo; previous environment green",
+          "lastPersonSignOff": null,
+          "commit": "60d3776b9fbed8d3444b67e83e73e8087d728ef7",
+          "commitAt": "2026-10-17T06:58:52Z",
+          "leadTimeHours": 13.2,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 0,
+          "failedLast7Days": 0,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-fworker/deployments/releases/1.0.1"
+        },
+        {
+          "name": "dashboard",
+          "version": "1.0.6",
+          "deployedAt": "2026-10-19T00:54:33Z",
+          "signedOffBy": null,
+          "reason": null,
+          "lastPersonSignOff": null,
+          "commit": "5777aae3ff5e66141924e58d83ed7c86b3f82546",
+          "commitAt": "2026-10-18T16:28:45Z",
+          "leadTimeHours": 8.4,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 4,
+          "failedLast7Days": 0,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-dashboard/deployments/releases/1.0.6"
+        },
+        {
+          "name": "system",
+          "version": "1.0.29",
+          "deployedAt": "2026-10-20T20:48:10Z",
+          "signedOffBy": null,
+          "reason": null,
+          "lastPersonSignOff": null,
+          "commit": "3f33376ed55a7739e521dc10596ece354c48d001",
+          "commitAt": "2026-10-20T20:29:00Z",
+          "leadTimeHours": 0.3,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 12,
+          "failedLast7Days": 0,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-system/deployments/releases/1.0.29"
+        }
+      ],
+      "health": {
+        "last24Hours": {
+          "reports": 24,
+          "healthy": 0
+        },
+        "last7Days": {
+          "reports": 101,
+          "healthy": 57
+        },
+        "lastFailure": "2026-10-24T20:59:13Z",
+        "containerApps": [
+          {
+            "name": "ui",
+            "last": {
+              "result": "unhealthy",
+              "at": "2026-10-24T20:59:13Z"
+            },
+            "last24Hours": {
+              "reports": 24,
+              "healthy": 0
+            },
+            "last7Days": {
+              "reports": 101,
+              "healthy": 57
+            }
+          },
+          {
+            "name": "fworker",
+            "last": {
+              "result": "healthy",
+              "at": "2026-10-24T20:59:13Z"
+            },
+            "last24Hours": {
+              "reports": 24,
+              "healthy": 24
+            },
+            "last7Days": {
+              "reports": 101,
+              "healthy": 101
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "prod",
+      "deployables": [
+        {
+          "name": "ui",
+          "version": "2.4.26",
+          "deployedAt": "2026-10-18T23:41:58Z",
+          "signedOffBy": null,
+          "reason": null,
+          "lastPersonSignOff": null,
+          "commit": "a6d1ec8bf5a718e7dbdc007197ea461e8a6bb951",
+          "commitAt": "2026-10-18T22:31:25Z",
+          "leadTimeHours": 1.2,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 3,
+          "failedLast7Days": 0,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-ui/deployments/releases/2.4.26"
+        },
+        {
+          "name": "fworker",
+          "version": "1.0.1",
+          "deployedAt": "2026-10-17T20:50:55Z",
+          "signedOffBy": "ai-ops",
+          "reason": "Standing approval from the architect for the teaching demo; previous environment green",
+          "lastPersonSignOff": null,
+          "commit": "60d3776b9fbed8d3444b67e83e73e8087d728ef7",
+          "commitAt": "2026-10-17T06:58:52Z",
+          "leadTimeHours": 13.9,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 0,
+          "failedLast7Days": 0,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-fworker/deployments/releases/1.0.1"
+        },
+        {
+          "name": "dashboard",
+          "version": "1.0.6",
+          "deployedAt": "2026-10-19T00:54:42Z",
+          "signedOffBy": null,
+          "reason": null,
+          "lastPersonSignOff": null,
+          "commit": "5777aae3ff5e66141924e58d83ed7c86b3f82546",
+          "commitAt": "2026-10-18T16:28:45Z",
+          "leadTimeHours": 8.4,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 4,
+          "failedLast7Days": 0,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-dashboard/deployments/releases/1.0.6"
+        },
+        {
+          "name": "system",
+          "version": "1.0.29",
+          "deployedAt": "2026-10-20T20:56:49Z",
+          "signedOffBy": null,
+          "reason": null,
+          "lastPersonSignOff": null,
+          "commit": "3f33376ed55a7739e521dc10596ece354c48d001",
+          "commitAt": "2026-10-20T20:29:00Z",
+          "leadTimeHours": 0.5,
+          "behindFirst": {
+            "versions": 0,
+            "days": 0
+          },
+          "deploymentsLast7Days": 12,
+          "failedLast7Days": 0,
+          "releaseUrl": "https://clearmeasure.octopus.app/app#/Spaces-415/projects/agentic1-system/deployments/releases/1.0.29"
+        }
+      ],
+      "health": {
+        "last24Hours": {
+          "reports": 24,
+          "healthy": 0
+        },
+        "last7Days": {
+          "reports": 101,
+          "healthy": 45
+        },
+        "lastFailure": "2026-10-24T20:59:13Z",
+        "containerApps": [
+          {
+            "name": "ui",
+            "last": {
+              "result": "unhealthy",
+              "at": "2026-10-24T20:59:13Z"
+            },
+            "last24Hours": {
+              "reports": 24,
+              "healthy": 0
+            },
+            "last7Days": {
+              "reports": 101,
+              "healthy": 45
+            }
+          },
+          {
+            "name": "fworker",
+            "last": {
+              "result": "healthy",
+              "at": "2026-10-24T20:59:13Z"
+            },
+            "last24Hours": {
+              "reports": 24,
+              "healthy": 24
+            },
+            "last7Days": {
+              "reports": 101,
+              "healthy": 101
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "failover": null
+}
