@@ -1,0 +1,40 @@
+{
+  "repositories": [
+    {
+      "id": "system",
+      "repository": "demo-agentic-system1-system",
+      "workItems": 118,
+      "issues": null,
+      "pullRequests": null,
+      "deployments": null,
+      "deliveredStage": "Merged"
+    },
+    {
+      "id": "ui",
+      "repository": "demo-agentic-system1-workorders",
+      "workItems": 11,
+      "issues": null,
+      "pullRequests": null,
+      "deployments": null,
+      "deliveredStage": "Merged"
+    },
+    {
+      "id": "fworker",
+      "repository": "demo-agentic-system1-fworker",
+      "workItems": 1,
+      "issues": null,
+      "pullRequests": null,
+      "deployments": null,
+      "deliveredStage": "Merged"
+    },
+    {
+      "id": "dashboard",
+      "repository": "demo-agentic-system1-dashboard",
+      "workItems": 2,
+      "issues": null,
+      "pullRequests": null,
+      "deployments": null,
+      "deliveredStage": "Merged"
+    }
+  ]
+}

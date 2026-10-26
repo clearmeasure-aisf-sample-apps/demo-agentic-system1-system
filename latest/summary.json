@@ -1,14 +1,14 @@
 {
   "system": "demo-agentic-system1-system",
-  "isoWeek": "2026-W43",
-  "generatedUtc": "2026-10-20T20:29:37Z",
-  "harvestSince": "2026-07-28",
+  "isoWeek": "2026-W44",
+  "generatedUtc": "2026-10-26T06:56:01Z",
+  "harvestSince": "2026-08-03",
   "scorecardVersion": "1.0.3713-delivery.3+5319666f4561c2be5a9a521c2d470ea910fd24a4",
   "repositories": [
     {
       "id": "system",
       "repository": "demo-agentic-system1-system",
-      "workItems": 112,
+      "workItems": 118,
       "issues": null,
       "pullRequests": null,
       "deployments": null,
@@ -43,32 +43,19 @@
     }
   ],
   "latestWeek": {
-    "periodLabel": "W43 2026-10-19",
-    "weekStart": "2026-10-19",
-    "itemsDelivered": 1,
-    "throughput": 3,
+    "periodLabel": "W44 2026-10-26",
+    "weekStart": "2026-10-26",
+    "itemsDelivered": 0,
+    "throughput": 0,
     "rework": 0,
-    "netThroughput": 3,
-    "itemsStarted": 2,
-    "workInProcess": 0,
+    "netThroughput": 0,
+    "itemsStarted": 0,
+    "workInProcess": 5,
     "itemsStopped": 0,
-    "meanTimeToDeliveryHours": 0.03,
+    "meanTimeToDeliveryHours": null,
     "closedNotDelivered": null
   },
   "weeks": [
-    {
-      "periodLabel": "W31 2026-07-27",
-      "weekStart": "2026-07-27",
-      "itemsDelivered": 0,
-      "throughput": 0,
-      "rework": 0,
-      "netThroughput": 0,
-      "itemsStarted": 0,
-      "workInProcess": 0,
-      "itemsStopped": 0,
-      "meanTimeToDeliveryHours": null,
-      "closedNotDelivered": null
-    },
     {
       "periodLabel": "W32 2026-08-03",
       "weekStart": "2026-08-03",
@@ -216,13 +203,26 @@
       "periodLabel": "W43 2026-10-19",
       "weekStart": "2026-10-19",
       "itemsDelivered": 1,
-      "throughput": 3,
+      "throughput": 5,
       "rework": 0,
-      "netThroughput": 3,
-      "itemsStarted": 2,
-      "workInProcess": 0,
+      "netThroughput": 5,
+      "itemsStarted": 8,
+      "workInProcess": 5,
       "itemsStopped": 0,
       "meanTimeToDeliveryHours": 0.03,
+      "closedNotDelivered": null
+    },
+    {
+      "periodLabel": "W44 2026-10-26",
+      "weekStart": "2026-10-26",
+      "itemsDelivered": 0,
+      "throughput": 0,
+      "rework": 0,
+      "netThroughput": 0,
+      "itemsStarted": 0,
+      "workInProcess": 5,
+      "itemsStopped": 0,
+      "meanTimeToDeliveryHours": null,
       "closedNotDelivered": null
     }
   ]
