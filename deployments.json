@@ -1,0 +1,118 @@
+{
+  "generated": "2026-10-30T02:58:38Z",
+  "system": "agentic1",
+  "octopus": "https://clearmeasure.octopus.app/app#/Spaces-415",
+  "deployments": [],
+  "recent": [
+    {
+      "project": "agentic1-system",
+      "release": "1.0.29",
+      "environment": "prod",
+      "result": "succeeded",
+      "finished": "2026-10-20T20:56:49Z",
+      "startedBy": "agentic1-github",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12080286"
+    },
+    {
+      "project": "agentic1-system",
+      "release": "1.0.29",
+      "environment": "uat",
+      "result": "succeeded",
+      "finished": "2026-10-20T20:48:10Z",
+      "startedBy": "agentic1-github",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12080246"
+    },
+    {
+      "project": "agentic1-system",
+      "release": "1.0.29",
+      "environment": "tdd",
+      "result": "succeeded",
+      "finished": "2026-10-20T20:39:00Z",
+      "startedBy": "agentic1-github",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12080201"
+    },
+    {
+      "project": "agentic1-dashboard",
+      "release": "1.0.6",
+      "environment": "prod",
+      "result": "succeeded",
+      "finished": "2026-10-19T00:54:42Z",
+      "startedBy": "ai-ops",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12067856"
+    },
+    {
+      "project": "agentic1-dashboard",
+      "release": "1.0.6",
+      "environment": "uat",
+      "result": "succeeded",
+      "finished": "2026-10-19T00:54:33Z",
+      "startedBy": "ai-ops",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12067855"
+    },
+    {
+      "project": "agentic1-dashboard",
+      "release": "1.0.6",
+      "environment": "tdd",
+      "result": "succeeded",
+      "finished": "2026-10-19T00:42:08Z",
+      "startedBy": "ai-ops",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12067796"
+    },
+    {
+      "project": "agentic1-ui",
+      "release": "2.4.26",
+      "environment": "tdd",
+      "result": "succeeded",
+      "finished": "2026-10-19T00:28:15Z",
+      "startedBy": "ai-ops",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12067595"
+    },
+    {
+      "project": "agentic1-ui",
+      "release": "2.4.26",
+      "environment": "prod",
+      "result": "succeeded",
+      "finished": "2026-10-18T23:41:58Z",
+      "startedBy": "agentic1-github",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12067480"
+    },
+    {
+      "project": "agentic1-ui",
+      "release": "2.4.26",
+      "environment": "uat",
+      "result": "succeeded",
+      "finished": "2026-10-18T23:31:46Z",
+      "startedBy": "agentic1-github",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12067432"
+    },
+    {
+      "project": "agentic1-fworker",
+      "release": "1.0.1",
+      "environment": "prod",
+      "result": "succeeded",
+      "finished": "2026-10-17T20:50:55Z",
+      "startedBy": "ai-ops",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12059994"
+    },
+    {
+      "project": "agentic1-fworker",
+      "release": "1.0.1",
+      "environment": "uat",
+      "result": "succeeded",
+      "finished": "2026-10-17T20:11:01Z",
+      "startedBy": "ai-ops",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12059757"
+    },
+    {
+      "project": "agentic1-fworker",
+      "release": "1.0.1",
+      "environment": "tdd",
+      "result": "succeeded",
+      "finished": "2026-10-17T16:51:03Z",
+      "startedBy": "agentic1-github",
+      "url": "https://clearmeasure.octopus.app/app#/Spaces-415/tasks/ServerTasks-12058873"
+    }
+  ],
+  "freezes": [],
+  "missing": []
+}
