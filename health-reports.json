@@ -1,0 +1,3533 @@
+{
+  "generated": "2026-11-07T13:40:11Z",
+  "reports": {
+    "ServerTasks-12156303": {
+      "at": "2026-10-31T13:59:17Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12156304": {
+      "at": "2026-10-31T13:59:15Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12156305": {
+      "at": "2026-10-31T13:59:15Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12156598": {
+      "at": "2026-10-31T14:58:55Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12156599": {
+      "at": "2026-10-31T14:58:56Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12156600": {
+      "at": "2026-10-31T14:58:56Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12156891": {
+      "at": "2026-10-31T15:59:06Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12156892": {
+      "at": "2026-10-31T15:59:07Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12156893": {
+      "at": "2026-10-31T15:59:05Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12157211": {
+      "at": "2026-10-31T16:59:16Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12157212": {
+      "at": "2026-10-31T16:59:17Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12157213": {
+      "at": "2026-10-31T16:58:46Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12157503": {
+      "at": "2026-10-31T17:58:51Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12157504": {
+      "at": "2026-10-31T17:58:51Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12157505": {
+      "at": "2026-10-31T17:58:51Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12157794": {
+      "at": "2026-10-31T18:58:33Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12157795": {
+      "at": "2026-10-31T18:58:34Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12157796": {
+      "at": "2026-10-31T18:59:03Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12158092": {
+      "at": "2026-10-31T19:59:19Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12158093": {
+      "at": "2026-10-31T19:59:19Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12158094": {
+      "at": "2026-10-31T19:59:19Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12158443": {
+      "at": "2026-10-31T20:58:29Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12158444": {
+      "at": "2026-10-31T20:59:00Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12158445": {
+      "at": "2026-10-31T20:58:59Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12158738": {
+      "at": "2026-10-31T21:59:04Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12158739": {
+      "at": "2026-10-31T21:59:04Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12158740": {
+      "at": "2026-10-31T21:59:04Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159025": {
+      "at": "2026-10-31T22:59:13Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159026": {
+      "at": "2026-10-31T22:59:13Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159027": {
+      "at": "2026-10-31T22:58:45Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159318": {
+      "at": "2026-10-31T23:59:02Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159319": {
+      "at": "2026-10-31T23:58:31Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159320": {
+      "at": "2026-10-31T23:59:01Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159631": {
+      "at": "2026-11-01T00:56:32Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159632": {
+      "at": "2026-11-01T00:56:32Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159633": {
+      "at": "2026-11-01T00:56:32Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159921": {
+      "at": "2026-11-01T01:56:27Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159922": {
+      "at": "2026-11-01T01:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12159923": {
+      "at": "2026-11-01T01:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12160211": {
+      "at": "2026-11-01T02:56:37Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12160212": {
+      "at": "2026-11-01T02:56:46Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12160213": {
+      "at": "2026-11-01T02:56:36Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12160491": {
+      "at": "2026-11-01T03:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12160492": {
+      "at": "2026-11-01T03:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12160493": {
+      "at": "2026-11-01T03:56:05Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12160802": {
+      "at": "2026-11-01T04:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12160803": {
+      "at": "2026-11-01T04:56:16Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12160804": {
+      "at": "2026-11-01T04:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161086": {
+      "at": "2026-11-01T05:56:32Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161087": {
+      "at": "2026-11-01T05:56:32Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161088": {
+      "at": "2026-11-01T05:56:32Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161374": {
+      "at": "2026-11-01T06:56:41Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161375": {
+      "at": "2026-11-01T06:56:41Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161376": {
+      "at": "2026-11-01T06:56:40Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161658": {
+      "at": "2026-11-01T07:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161659": {
+      "at": "2026-11-01T07:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161660": {
+      "at": "2026-11-01T07:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161970": {
+      "at": "2026-11-01T08:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161971": {
+      "at": "2026-11-01T08:56:20Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12161972": {
+      "at": "2026-11-01T08:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12162255": {
+      "at": "2026-11-01T09:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12162256": {
+      "at": "2026-11-01T09:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12162257": {
+      "at": "2026-11-01T09:56:03Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12162546": {
+      "at": "2026-11-01T10:56:27Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12162547": {
+      "at": "2026-11-01T10:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12162548": {
+      "at": "2026-11-01T10:56:27Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12162833": {
+      "at": "2026-11-01T11:56:12Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12162834": {
+      "at": "2026-11-01T11:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12162835": {
+      "at": "2026-11-01T11:56:12Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12163148": {
+      "at": "2026-11-01T12:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12163149": {
+      "at": "2026-11-01T12:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12163150": {
+      "at": "2026-11-01T12:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12163429": {
+      "at": "2026-11-01T13:56:30Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12163430": {
+      "at": "2026-11-01T13:56:20Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12163431": {
+      "at": "2026-11-01T13:56:30Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12163723": {
+      "at": "2026-11-01T14:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12163724": {
+      "at": "2026-11-01T14:56:12Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12163725": {
+      "at": "2026-11-01T14:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164012": {
+      "at": "2026-11-01T15:56:07Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164013": {
+      "at": "2026-11-01T15:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164014": {
+      "at": "2026-11-01T15:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164328": {
+      "at": "2026-11-01T16:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164329": {
+      "at": "2026-11-01T16:56:39Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164330": {
+      "at": "2026-11-01T16:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164620": {
+      "at": "2026-11-01T17:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164621": {
+      "at": "2026-11-01T17:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164622": {
+      "at": "2026-11-01T17:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164904": {
+      "at": "2026-11-01T18:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164905": {
+      "at": "2026-11-01T18:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12164906": {
+      "at": "2026-11-01T18:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12165183": {
+      "at": "2026-11-01T19:56:35Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12165184": {
+      "at": "2026-11-01T19:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12165185": {
+      "at": "2026-11-01T19:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12165515": {
+      "at": "2026-11-01T20:56:07Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12165516": {
+      "at": "2026-11-01T20:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12165517": {
+      "at": "2026-11-01T20:56:28Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12165803": {
+      "at": "2026-11-01T21:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12165804": {
+      "at": "2026-11-01T21:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12165805": {
+      "at": "2026-11-01T21:56:43Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166083": {
+      "at": "2026-11-01T22:56:07Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166084": {
+      "at": "2026-11-01T22:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166085": {
+      "at": "2026-11-01T22:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166367": {
+      "at": "2026-11-01T23:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166368": {
+      "at": "2026-11-01T23:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166369": {
+      "at": "2026-11-01T23:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166684": {
+      "at": "2026-11-02T00:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166685": {
+      "at": "2026-11-02T00:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166686": {
+      "at": "2026-11-02T00:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166979": {
+      "at": "2026-11-02T01:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166980": {
+      "at": "2026-11-02T01:56:30Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12166981": {
+      "at": "2026-11-02T01:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12167270": {
+      "at": "2026-11-02T02:56:39Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12167271": {
+      "at": "2026-11-02T02:56:38Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12167272": {
+      "at": "2026-11-02T02:56:38Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12167552": {
+      "at": "2026-11-02T03:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12167553": {
+      "at": "2026-11-02T03:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12167554": {
+      "at": "2026-11-02T03:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12167875": {
+      "at": "2026-11-02T04:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12167876": {
+      "at": "2026-11-02T04:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12167877": {
+      "at": "2026-11-02T04:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12168181": {
+      "at": "2026-11-02T05:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12168182": {
+      "at": "2026-11-02T05:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12168183": {
+      "at": "2026-11-02T05:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12168485": {
+      "at": "2026-11-02T06:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12168486": {
+      "at": "2026-11-02T06:56:07Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12168487": {
+      "at": "2026-11-02T06:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12168794": {
+      "at": "2026-11-02T07:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12168795": {
+      "at": "2026-11-02T07:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12168796": {
+      "at": "2026-11-02T07:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12169120": {
+      "at": "2026-11-02T08:56:01Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12169121": {
+      "at": "2026-11-02T08:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12169122": {
+      "at": "2026-11-02T08:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12169426": {
+      "at": "2026-11-02T09:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12169427": {
+      "at": "2026-11-02T09:56:03Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12169428": {
+      "at": "2026-11-02T09:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12169716": {
+      "at": "2026-11-02T10:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12169717": {
+      "at": "2026-11-02T10:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12169718": {
+      "at": "2026-11-02T10:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170004": {
+      "at": "2026-11-02T11:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170005": {
+      "at": "2026-11-02T11:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170006": {
+      "at": "2026-11-02T11:56:04Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170323": {
+      "at": "2026-11-02T12:56:05Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170324": {
+      "at": "2026-11-02T12:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170325": {
+      "at": "2026-11-02T12:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170624": {
+      "at": "2026-11-02T13:56:16Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170625": {
+      "at": "2026-11-02T13:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170626": {
+      "at": "2026-11-02T13:56:07Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170925": {
+      "at": "2026-11-02T14:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170926": {
+      "at": "2026-11-02T14:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12170927": {
+      "at": "2026-11-02T14:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12171225": {
+      "at": "2026-11-02T15:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12171226": {
+      "at": "2026-11-02T15:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12171227": {
+      "at": "2026-11-02T15:56:10Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12171548": {
+      "at": "2026-11-02T16:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12171549": {
+      "at": "2026-11-02T16:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12171550": {
+      "at": "2026-11-02T16:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12171853": {
+      "at": "2026-11-02T17:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12171854": {
+      "at": "2026-11-02T17:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12171855": {
+      "at": "2026-11-02T17:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12172159": {
+      "at": "2026-11-02T18:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12172160": {
+      "at": "2026-11-02T18:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12172161": {
+      "at": "2026-11-02T18:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12172463": {
+      "at": "2026-11-02T19:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12172464": {
+      "at": "2026-11-02T19:56:28Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12172465": {
+      "at": "2026-11-02T19:56:28Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12172814": {
+      "at": "2026-11-02T20:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12172815": {
+      "at": "2026-11-02T20:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12172816": {
+      "at": "2026-11-02T20:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12173113": {
+      "at": "2026-11-02T21:56:39Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12173114": {
+      "at": "2026-11-02T21:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12173115": {
+      "at": "2026-11-02T21:56:39Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12173403": {
+      "at": "2026-11-02T22:56:28Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12173404": {
+      "at": "2026-11-02T22:56:38Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12173405": {
+      "at": "2026-11-02T22:56:38Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12173701": {
+      "at": "2026-11-02T23:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12173702": {
+      "at": "2026-11-02T23:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12173703": {
+      "at": "2026-11-02T23:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174020": {
+      "at": "2026-11-03T00:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174021": {
+      "at": "2026-11-03T00:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174022": {
+      "at": "2026-11-03T00:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174323": {
+      "at": "2026-11-03T01:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174324": {
+      "at": "2026-11-03T01:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174325": {
+      "at": "2026-11-03T01:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174622": {
+      "at": "2026-11-03T02:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174623": {
+      "at": "2026-11-03T02:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174624": {
+      "at": "2026-11-03T02:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174933": {
+      "at": "2026-11-03T03:56:05Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174934": {
+      "at": "2026-11-03T03:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12174935": {
+      "at": "2026-11-03T03:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12175260": {
+      "at": "2026-11-03T04:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12175261": {
+      "at": "2026-11-03T04:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12175262": {
+      "at": "2026-11-03T04:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12175560": {
+      "at": "2026-11-03T05:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12175561": {
+      "at": "2026-11-03T05:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12175562": {
+      "at": "2026-11-03T05:56:43Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12175859": {
+      "at": "2026-11-03T06:56:39Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12175860": {
+      "at": "2026-11-03T06:56:39Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12175861": {
+      "at": "2026-11-03T06:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12176160": {
+      "at": "2026-11-03T07:56:16Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12176161": {
+      "at": "2026-11-03T07:56:16Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12176162": {
+      "at": "2026-11-03T07:56:16Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12176483": {
+      "at": "2026-11-03T08:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12176484": {
+      "at": "2026-11-03T08:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12176485": {
+      "at": "2026-11-03T08:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12176786": {
+      "at": "2026-11-03T09:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12176787": {
+      "at": "2026-11-03T09:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12176788": {
+      "at": "2026-11-03T09:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12177084": {
+      "at": "2026-11-03T10:56:28Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12177085": {
+      "at": "2026-11-03T10:56:27Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12177086": {
+      "at": "2026-11-03T10:56:27Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12177377": {
+      "at": "2026-11-03T11:56:32Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12177378": {
+      "at": "2026-11-03T11:56:42Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12177379": {
+      "at": "2026-11-03T11:56:32Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12177708": {
+      "at": "2026-11-03T12:56:10Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12177709": {
+      "at": "2026-11-03T12:56:20Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12177710": {
+      "at": "2026-11-03T12:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178013": {
+      "at": "2026-11-03T13:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178014": {
+      "at": "2026-11-03T13:56:12Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178015": {
+      "at": "2026-11-03T13:56:12Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178326": {
+      "at": "2026-11-03T14:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178327": {
+      "at": "2026-11-03T14:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178328": {
+      "at": "2026-11-03T14:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178628": {
+      "at": "2026-11-03T15:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178629": {
+      "at": "2026-11-03T15:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178630": {
+      "at": "2026-11-03T15:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178965": {
+      "at": "2026-11-03T16:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178966": {
+      "at": "2026-11-03T16:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12178967": {
+      "at": "2026-11-03T16:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12179269": {
+      "at": "2026-11-03T17:56:39Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12179270": {
+      "at": "2026-11-03T17:56:39Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12179271": {
+      "at": "2026-11-03T17:56:39Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12179567": {
+      "at": "2026-11-03T18:56:28Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12179568": {
+      "at": "2026-11-03T18:56:08Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12179569": {
+      "at": "2026-11-03T18:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12179863": {
+      "at": "2026-11-03T19:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12179864": {
+      "at": "2026-11-03T19:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12179865": {
+      "at": "2026-11-03T19:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12180219": {
+      "at": "2026-11-03T20:56:35Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12180220": {
+      "at": "2026-11-03T20:56:35Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12180221": {
+      "at": "2026-11-03T20:56:45Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12180516": {
+      "at": "2026-11-03T21:56:40Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12180517": {
+      "at": "2026-11-03T21:56:40Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12180518": {
+      "at": "2026-11-03T21:56:30Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12180811": {
+      "at": "2026-11-03T22:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12180812": {
+      "at": "2026-11-03T22:56:08Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12180813": {
+      "at": "2026-11-03T22:56:08Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12181111": {
+      "at": "2026-11-03T23:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12181112": {
+      "at": "2026-11-03T23:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12181113": {
+      "at": "2026-11-03T23:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12181440": {
+      "at": "2026-11-04T00:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12181441": {
+      "at": "2026-11-04T00:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12181442": {
+      "at": "2026-11-04T00:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12181743": {
+      "at": "2026-11-04T01:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12181744": {
+      "at": "2026-11-04T01:56:36Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12181745": {
+      "at": "2026-11-04T01:56:36Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182036": {
+      "at": "2026-11-04T02:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182037": {
+      "at": "2026-11-04T02:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182038": {
+      "at": "2026-11-04T02:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182333": {
+      "at": "2026-11-04T03:56:35Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182334": {
+      "at": "2026-11-04T03:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182335": {
+      "at": "2026-11-04T03:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182650": {
+      "at": "2026-11-04T04:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182651": {
+      "at": "2026-11-04T04:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182652": {
+      "at": "2026-11-04T04:56:09Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182952": {
+      "at": "2026-11-04T05:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182953": {
+      "at": "2026-11-04T05:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12182954": {
+      "at": "2026-11-04T05:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12183247": {
+      "at": "2026-11-04T06:56:09Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12183248": {
+      "at": "2026-11-04T06:55:59Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12183249": {
+      "at": "2026-11-04T06:56:09Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12183544": {
+      "at": "2026-11-04T07:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12183545": {
+      "at": "2026-11-04T07:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12183546": {
+      "at": "2026-11-04T07:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12183860": {
+      "at": "2026-11-04T08:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12183861": {
+      "at": "2026-11-04T08:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12183862": {
+      "at": "2026-11-04T08:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12184162": {
+      "at": "2026-11-04T09:56:36Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12184163": {
+      "at": "2026-11-04T09:56:37Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12184164": {
+      "at": "2026-11-04T09:56:36Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12184460": {
+      "at": "2026-11-04T10:56:16Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12184461": {
+      "at": "2026-11-04T10:56:16Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12184462": {
+      "at": "2026-11-04T10:56:16Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12184758": {
+      "at": "2026-11-04T11:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12184759": {
+      "at": "2026-11-04T11:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12184760": {
+      "at": "2026-11-04T11:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185078": {
+      "at": "2026-11-04T12:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185079": {
+      "at": "2026-11-04T12:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185080": {
+      "at": "2026-11-04T12:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185377": {
+      "at": "2026-11-04T13:56:44Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185378": {
+      "at": "2026-11-04T13:56:46Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185379": {
+      "at": "2026-11-04T13:56:35Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185682": {
+      "at": "2026-11-04T14:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185683": {
+      "at": "2026-11-04T14:56:05Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185684": {
+      "at": "2026-11-04T14:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185982": {
+      "at": "2026-11-04T15:56:39Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185983": {
+      "at": "2026-11-04T15:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12185984": {
+      "at": "2026-11-04T15:56:38Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12186305": {
+      "at": "2026-11-04T16:56:38Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12186306": {
+      "at": "2026-11-04T16:56:38Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12186307": {
+      "at": "2026-11-04T16:56:38Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12186599": {
+      "at": "2026-11-04T17:56:07Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12186600": {
+      "at": "2026-11-04T17:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12186601": {
+      "at": "2026-11-04T17:56:27Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12186905": {
+      "at": "2026-11-04T18:56:37Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12186906": {
+      "at": "2026-11-04T18:56:27Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12186907": {
+      "at": "2026-11-04T18:56:27Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12187202": {
+      "at": "2026-11-04T19:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12187203": {
+      "at": "2026-11-04T19:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12187204": {
+      "at": "2026-11-04T19:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12187551": {
+      "at": "2026-11-04T20:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12187552": {
+      "at": "2026-11-04T20:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12187553": {
+      "at": "2026-11-04T20:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12187853": {
+      "at": "2026-11-04T21:56:40Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12187854": {
+      "at": "2026-11-04T21:56:30Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12187855": {
+      "at": "2026-11-04T21:56:30Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12188137": {
+      "at": "2026-11-04T22:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12188138": {
+      "at": "2026-11-04T22:56:01Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12188139": {
+      "at": "2026-11-04T22:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12188438": {
+      "at": "2026-11-04T23:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12188439": {
+      "at": "2026-11-04T23:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12188440": {
+      "at": "2026-11-04T23:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12188764": {
+      "at": "2026-11-05T00:56:30Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12188765": {
+      "at": "2026-11-05T00:56:40Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12188766": {
+      "at": "2026-11-05T00:56:40Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189066": {
+      "at": "2026-11-05T01:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189067": {
+      "at": "2026-11-05T01:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189068": {
+      "at": "2026-11-05T01:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189363": {
+      "at": "2026-11-05T02:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189364": {
+      "at": "2026-11-05T02:56:03Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189365": {
+      "at": "2026-11-05T02:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189657": {
+      "at": "2026-11-05T03:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189658": {
+      "at": "2026-11-05T03:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189659": {
+      "at": "2026-11-05T03:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189979": {
+      "at": "2026-11-05T04:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189980": {
+      "at": "2026-11-05T04:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12189981": {
+      "at": "2026-11-05T04:57:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12190272": {
+      "at": "2026-11-05T05:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12190273": {
+      "at": "2026-11-05T05:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12190274": {
+      "at": "2026-11-05T05:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12190567": {
+      "at": "2026-11-05T06:56:16Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12190568": {
+      "at": "2026-11-05T06:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12190569": {
+      "at": "2026-11-05T06:56:26Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12190864": {
+      "at": "2026-11-05T07:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12190865": {
+      "at": "2026-11-05T07:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12190866": {
+      "at": "2026-11-05T07:56:44Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12191182": {
+      "at": "2026-11-05T08:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12191183": {
+      "at": "2026-11-05T08:56:10Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12191184": {
+      "at": "2026-11-05T08:56:01Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12191488": {
+      "at": "2026-11-05T09:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12191489": {
+      "at": "2026-11-05T09:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12191490": {
+      "at": "2026-11-05T09:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12191783": {
+      "at": "2026-11-05T10:56:35Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12191784": {
+      "at": "2026-11-05T10:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12191785": {
+      "at": "2026-11-05T10:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192074": {
+      "at": "2026-11-05T11:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192075": {
+      "at": "2026-11-05T11:56:13Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192076": {
+      "at": "2026-11-05T11:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192400": {
+      "at": "2026-11-05T12:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192401": {
+      "at": "2026-11-05T12:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192402": {
+      "at": "2026-11-05T12:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192687": {
+      "at": "2026-11-05T13:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192688": {
+      "at": "2026-11-05T13:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192689": {
+      "at": "2026-11-05T13:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192992": {
+      "at": "2026-11-05T14:56:36Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192993": {
+      "at": "2026-11-05T14:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12192994": {
+      "at": "2026-11-05T14:56:46Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12193289": {
+      "at": "2026-11-05T15:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12193290": {
+      "at": "2026-11-05T15:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12193291": {
+      "at": "2026-11-05T15:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12193626": {
+      "at": "2026-11-05T16:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12193627": {
+      "at": "2026-11-05T16:56:23Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12193628": {
+      "at": "2026-11-05T16:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12193930": {
+      "at": "2026-11-05T17:56:37Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12193931": {
+      "at": "2026-11-05T17:56:37Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12193932": {
+      "at": "2026-11-05T17:56:47Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12194236": {
+      "at": "2026-11-05T18:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12194237": {
+      "at": "2026-11-05T18:56:04Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12194238": {
+      "at": "2026-11-05T18:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12194528": {
+      "at": "2026-11-05T19:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12194529": {
+      "at": "2026-11-05T19:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12194530": {
+      "at": "2026-11-05T19:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12194883": {
+      "at": "2026-11-05T20:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12194884": {
+      "at": "2026-11-05T20:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12194885": {
+      "at": "2026-11-05T20:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12195187": {
+      "at": "2026-11-05T21:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12195188": {
+      "at": "2026-11-05T21:56:14Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12195189": {
+      "at": "2026-11-05T21:56:15Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12195478": {
+      "at": "2026-11-05T22:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12195479": {
+      "at": "2026-11-05T22:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12195480": {
+      "at": "2026-11-05T22:56:30Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12195767": {
+      "at": "2026-11-05T23:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12195768": {
+      "at": "2026-11-05T23:56:17Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12195769": {
+      "at": "2026-11-05T23:56:27Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196085": {
+      "at": "2026-11-06T00:56:36Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196086": {
+      "at": "2026-11-06T00:56:35Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196087": {
+      "at": "2026-11-06T00:56:35Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196377": {
+      "at": "2026-11-06T01:56:29Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196378": {
+      "at": "2026-11-06T01:56:19Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196379": {
+      "at": "2026-11-06T01:56:09Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196674": {
+      "at": "2026-11-06T02:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196675": {
+      "at": "2026-11-06T02:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196676": {
+      "at": "2026-11-06T02:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196969": {
+      "at": "2026-11-06T03:56:12Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196970": {
+      "at": "2026-11-06T03:56:02Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12196971": {
+      "at": "2026-11-06T03:56:12Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12197285": {
+      "at": "2026-11-06T04:59:03Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12197286": {
+      "at": "2026-11-06T04:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12197287": {
+      "at": "2026-11-06T04:56:11Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12197577": {
+      "at": "2026-11-06T05:59:19Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12197578": {
+      "at": "2026-11-06T05:56:27Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12197579": {
+      "at": "2026-11-06T05:56:37Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12197868": {
+      "at": "2026-11-06T06:59:03Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12197869": {
+      "at": "2026-11-06T06:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12197870": {
+      "at": "2026-11-06T06:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12198158": {
+      "at": "2026-11-06T07:59:06Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12198159": {
+      "at": "2026-11-06T07:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12198160": {
+      "at": "2026-11-06T07:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12198475": {
+      "at": "2026-11-06T08:58:45Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12198476": {
+      "at": "2026-11-06T08:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12198477": {
+      "at": "2026-11-06T08:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12198768": {
+      "at": "2026-11-06T09:58:53Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12198769": {
+      "at": "2026-11-06T09:56:12Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12198770": {
+      "at": "2026-11-06T09:56:12Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199058": {
+      "at": "2026-11-06T10:59:04Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199059": {
+      "at": "2026-11-06T10:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199060": {
+      "at": "2026-11-06T10:56:22Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199349": {
+      "at": "2026-11-06T11:59:13Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199350": {
+      "at": "2026-11-06T11:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199351": {
+      "at": "2026-11-06T11:56:31Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199674": {
+      "at": "2026-11-06T12:59:00Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199675": {
+      "at": "2026-11-06T12:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199676": {
+      "at": "2026-11-06T12:56:18Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199962": {
+      "at": "2026-11-06T13:59:06Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199963": {
+      "at": "2026-11-06T13:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12199964": {
+      "at": "2026-11-06T13:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12200266": {
+      "at": "2026-11-06T14:58:49Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12200267": {
+      "at": "2026-11-06T14:56:28Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12200268": {
+      "at": "2026-11-06T14:59:19Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12200562": {
+      "at": "2026-11-06T15:58:53Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12200563": {
+      "at": "2026-11-06T15:56:02Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12200564": {
+      "at": "2026-11-06T15:58:53Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12200891": {
+      "at": "2026-11-06T16:59:06Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12200892": {
+      "at": "2026-11-06T16:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12200893": {
+      "at": "2026-11-06T16:59:06Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12201189": {
+      "at": "2026-11-06T17:59:14Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12201190": {
+      "at": "2026-11-06T17:56:33Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12201191": {
+      "at": "2026-11-06T17:59:14Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12201483": {
+      "at": "2026-11-06T18:58:56Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12201484": {
+      "at": "2026-11-06T18:56:25Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12201485": {
+      "at": "2026-11-06T18:58:56Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12201775": {
+      "at": "2026-11-06T19:59:06Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12201776": {
+      "at": "2026-11-06T19:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12201777": {
+      "at": "2026-11-06T19:59:06Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202120": {
+      "at": "2026-11-06T20:59:13Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202121": {
+      "at": "2026-11-06T20:56:32Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202122": {
+      "at": "2026-11-06T20:59:14Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202411": {
+      "at": "2026-11-06T21:58:50Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202412": {
+      "at": "2026-11-06T21:56:30Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202413": {
+      "at": "2026-11-06T21:59:20Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202705": {
+      "at": "2026-11-06T22:59:09Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202706": {
+      "at": "2026-11-06T22:56:27Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202707": {
+      "at": "2026-11-06T22:59:09Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202987": {
+      "at": "2026-11-06T23:58:49Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202988": {
+      "at": "2026-11-06T23:56:38Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12202989": {
+      "at": "2026-11-06T23:59:20Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12203297": {
+      "at": "2026-11-07T00:58:32Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12203298": {
+      "at": "2026-11-07T00:56:21Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12203299": {
+      "at": "2026-11-07T00:59:02Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12203591": {
+      "at": "2026-11-07T01:59:19Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12203592": {
+      "at": "2026-11-07T01:56:28Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12203593": {
+      "at": "2026-11-07T01:59:19Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12203875": {
+      "at": "2026-11-07T02:59:04Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12203876": {
+      "at": "2026-11-07T02:56:24Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12203877": {
+      "at": "2026-11-07T02:59:06Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12204162": {
+      "at": "2026-11-07T03:59:16Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12204163": {
+      "at": "2026-11-07T03:56:34Z",
+      "apps": {
+        "ui": "healthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12204164": {
+      "at": "2026-11-07T03:59:15Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12204472": {
+      "at": "2026-11-07T04:59:00Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12204473": {
+      "at": "2026-11-07T04:58:59Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12204474": {
+      "at": "2026-11-07T04:59:00Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12204761": {
+      "at": "2026-11-07T05:59:15Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12204762": {
+      "at": "2026-11-07T05:59:15Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12204763": {
+      "at": "2026-11-07T05:59:17Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205048": {
+      "at": "2026-11-07T06:59:06Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205049": {
+      "at": "2026-11-07T06:59:07Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205050": {
+      "at": "2026-11-07T06:59:07Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205337": {
+      "at": "2026-11-07T07:59:20Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205338": {
+      "at": "2026-11-07T07:59:20Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205339": {
+      "at": "2026-11-07T07:59:20Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205650": {
+      "at": "2026-11-07T08:58:59Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205651": {
+      "at": "2026-11-07T08:58:59Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205652": {
+      "at": "2026-11-07T08:58:59Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205944": {
+      "at": "2026-11-07T09:59:05Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205945": {
+      "at": "2026-11-07T09:59:05Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12205946": {
+      "at": "2026-11-07T09:59:05Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12206241": {
+      "at": "2026-11-07T10:58:55Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12206242": {
+      "at": "2026-11-07T10:58:55Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12206243": {
+      "at": "2026-11-07T10:58:55Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12206531": {
+      "at": "2026-11-07T11:59:01Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12206532": {
+      "at": "2026-11-07T11:59:00Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12206533": {
+      "at": "2026-11-07T11:59:01Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12206847": {
+      "at": "2026-11-07T12:59:08Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12206848": {
+      "at": "2026-11-07T12:59:07Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    },
+    "ServerTasks-12206849": {
+      "at": "2026-11-07T12:59:07Z",
+      "apps": {
+        "ui": "unhealthy",
+        "fworker": "healthy"
+      }
+    }
+  }
+}
