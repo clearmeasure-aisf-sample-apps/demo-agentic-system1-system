@@ -1,14 +1,14 @@
 {
   "system": "demo-agentic-system1-system",
-  "isoWeek": "2026-W45",
-  "generatedUtc": "2026-11-02T06:36:49Z",
-  "harvestSince": "2026-08-10",
+  "isoWeek": "2026-W46",
+  "generatedUtc": "2026-11-09T06:37:20Z",
+  "harvestSince": "2026-08-17",
   "scorecardVersion": "1.0.3713-delivery.3+5319666f4561c2be5a9a521c2d470ea910fd24a4",
   "repositories": [
     {
       "id": "system",
       "repository": "demo-agentic-system1-system",
-      "workItems": 118,
+      "workItems": 121,
       "issues": null,
       "pullRequests": null,
       "deployments": null,
@@ -43,32 +43,19 @@
     }
   ],
   "latestWeek": {
-    "periodLabel": "W45 2026-11-02",
-    "weekStart": "2026-11-02",
+    "periodLabel": "W46 2026-11-09",
+    "weekStart": "2026-11-09",
     "itemsDelivered": 0,
     "throughput": 0,
     "rework": 0,
     "netThroughput": 0,
     "itemsStarted": 0,
-    "workInProcess": 4,
+    "workInProcess": 5,
     "itemsStopped": 0,
     "meanTimeToDeliveryHours": null,
     "closedNotDelivered": null
   },
   "weeks": [
-    {
-      "periodLabel": "W33 2026-08-10",
-      "weekStart": "2026-08-10",
-      "itemsDelivered": 0,
-      "throughput": 0,
-      "rework": 0,
-      "netThroughput": 0,
-      "itemsStarted": 0,
-      "workInProcess": 0,
-      "itemsStopped": 0,
-      "meanTimeToDeliveryHours": null,
-      "closedNotDelivered": null
-    },
     {
       "periodLabel": "W34 2026-08-17",
       "weekStart": "2026-08-17",
@@ -219,8 +206,21 @@
       "throughput": 0,
       "rework": 0,
       "netThroughput": 0,
+      "itemsStarted": 3,
+      "workInProcess": 5,
+      "itemsStopped": 0,
+      "meanTimeToDeliveryHours": null,
+      "closedNotDelivered": null
+    },
+    {
+      "periodLabel": "W46 2026-11-09",
+      "weekStart": "2026-11-09",
+      "itemsDelivered": 0,
+      "throughput": 0,
+      "rework": 0,
+      "netThroughput": 0,
       "itemsStarted": 0,
-      "workInProcess": 4,
+      "workInProcess": 5,
       "itemsStopped": 0,
       "meanTimeToDeliveryHours": null,
       "closedNotDelivered": null
