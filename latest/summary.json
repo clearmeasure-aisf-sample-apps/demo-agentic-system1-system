@@ -1,8 +1,8 @@
 {
   "system": "demo-agentic-system1-system",
-  "isoWeek": "2026-W46",
-  "generatedUtc": "2026-11-09T06:37:20Z",
-  "harvestSince": "2026-08-17",
+  "isoWeek": "2026-W47",
+  "generatedUtc": "2026-11-16T06:43:19Z",
+  "harvestSince": "2026-08-24",
   "scorecardVersion": "1.0.3713-delivery.3+5319666f4561c2be5a9a521c2d470ea910fd24a4",
   "repositories": [
     {
@@ -43,8 +43,8 @@
     }
   ],
   "latestWeek": {
-    "periodLabel": "W46 2026-11-09",
-    "weekStart": "2026-11-09",
+    "periodLabel": "W47 2026-11-16",
+    "weekStart": "2026-11-16",
     "itemsDelivered": 0,
     "throughput": 0,
     "rework": 0,
@@ -56,19 +56,6 @@
     "closedNotDelivered": null
   },
   "weeks": [
-    {
-      "periodLabel": "W34 2026-08-17",
-      "weekStart": "2026-08-17",
-      "itemsDelivered": 0,
-      "throughput": 0,
-      "rework": 0,
-      "netThroughput": 0,
-      "itemsStarted": 0,
-      "workInProcess": 0,
-      "itemsStopped": 0,
-      "meanTimeToDeliveryHours": null,
-      "closedNotDelivered": null
-    },
     {
       "periodLabel": "W35 2026-08-24",
       "weekStart": "2026-08-24",
@@ -215,6 +202,19 @@
     {
       "periodLabel": "W46 2026-11-09",
       "weekStart": "2026-11-09",
+      "itemsDelivered": 0,
+      "throughput": 0,
+      "rework": 0,
+      "netThroughput": 0,
+      "itemsStarted": 0,
+      "workInProcess": 5,
+      "itemsStopped": 0,
+      "meanTimeToDeliveryHours": null,
+      "closedNotDelivered": null
+    },
+    {
+      "periodLabel": "W47 2026-11-16",
+      "weekStart": "2026-11-16",
       "itemsDelivered": 0,
       "throughput": 0,
       "rework": 0,

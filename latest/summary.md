@@ -1,10 +1,9 @@
-# Delivery scorecard: demo-agentic-system1-system, 2026-W46
+# Delivery scorecard: demo-agentic-system1-system, 2026-W47
 
-Generated 2026-11-09T06:37:20Z by the weekly scorecard workflow with cmis 1.0.3713-delivery.3+5319666f4561c2be5a9a521c2d470ea910fd24a4. Harvest window: 2026-08-17 to now.
+Generated 2026-11-16T06:43:19Z by the weekly scorecard workflow with cmis 1.0.3713-delivery.3+5319666f4561c2be5a9a521c2d470ea910fd24a4. Harvest window: 2026-08-24 to now.
 
 | Week | Delivered | Throughput | Rework | Net throughput | Started | WIP | Mean time to delivery (h) |
 |---|---|---|---|---|---|---|---|
-| W34 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 0 | - |
 | W35 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 | - |
 | W36 2026-08-31 | 0 | 0 | 0 | 0 | 0 | 0 | - |
 | W37 2026-09-07 | 0 | 0 | 0 | 0 | 0 | 0 | - |
@@ -17,6 +16,7 @@ Generated 2026-11-09T06:37:20Z by the weekly scorecard workflow with cmis 1.0.37
 | W44 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 4 | - |
 | W45 2026-11-02 | 0 | 0 | 0 | 0 | 3 | 5 | - |
 | W46 2026-11-09 | 0 | 0 | 0 | 0 | 0 | 5 | - |
+| W47 2026-11-16 | 0 | 0 | 0 | 0 | 0 | 5 | - |
 
 Repositories:
 - demo-agentic-system1-system: 121 work items, delivered stage Merged
