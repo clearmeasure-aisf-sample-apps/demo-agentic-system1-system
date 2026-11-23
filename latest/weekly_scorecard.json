@@ -1,19 +1,6 @@
 {
   "weeks": [
     {
-      "periodLabel": "W35 2026-08-24",
-      "weekStart": "2026-08-24",
-      "itemsDelivered": 0,
-      "throughput": 0,
-      "rework": 0,
-      "netThroughput": 0,
-      "itemsStarted": 0,
-      "workInProcess": 0,
-      "itemsStopped": 0,
-      "meanTimeToDeliveryHours": null,
-      "closedNotDelivered": null
-    },
-    {
       "periodLabel": "W36 2026-08-31",
       "weekStart": "2026-08-31",
       "itemsDelivered": 0,
@@ -159,6 +146,19 @@
     {
       "periodLabel": "W47 2026-11-16",
       "weekStart": "2026-11-16",
+      "itemsDelivered": 0,
+      "throughput": 0,
+      "rework": 0,
+      "netThroughput": 0,
+      "itemsStarted": 0,
+      "workInProcess": 5,
+      "itemsStopped": 0,
+      "meanTimeToDeliveryHours": null,
+      "closedNotDelivered": null
+    },
+    {
+      "periodLabel": "W48 2026-11-23",
+      "weekStart": "2026-11-23",
       "itemsDelivered": 0,
       "throughput": 0,
       "rework": 0,
